@@ -1,0 +1,14 @@
+D:\StockLibrary\StockLibrary\bin\Debug\net8.0-windows\StockLibrary.deps.json
+D:\StockLibrary\StockLibrary\bin\Debug\net8.0-windows\StockLibrary.runtimeconfig.json
+D:\StockLibrary\StockLibrary\bin\Debug\net8.0-windows\StockLibrary.dll
+D:\StockLibrary\StockLibrary\bin\Debug\net8.0-windows\StockLibrary.pdb
+D:\StockLibrary\StockLibrary\obj\Debug\net8.0-windows\StockLibrary.csproj.AssemblyReference.cache
+D:\StockLibrary\StockLibrary\obj\Debug\net8.0-windows\StockLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\StockLibrary\StockLibrary\obj\Debug\net8.0-windows\StockLibrary.AssemblyInfoInputs.cache
+D:\StockLibrary\StockLibrary\obj\Debug\net8.0-windows\StockLibrary.AssemblyInfo.cs
+D:\StockLibrary\StockLibrary\obj\Debug\net8.0-windows\StockLibrary.csproj.CoreCompileInputs.cache
+D:\StockLibrary\StockLibrary\obj\Debug\net8.0-windows\StockLibrary.dll
+D:\StockLibrary\StockLibrary\obj\Debug\net8.0-windows\refint\StockLibrary.dll
+D:\StockLibrary\StockLibrary\obj\Debug\net8.0-windows\StockLibrary.pdb
+D:\StockLibrary\StockLibrary\obj\Debug\net8.0-windows\StockLibrary.genruntimeconfig.cache
+D:\StockLibrary\StockLibrary\obj\Debug\net8.0-windows\ref\StockLibrary.dll
