@@ -41,6 +41,7 @@ namespace StockLibrary.Repositories
             if (existing != null)
             {
                 existing.Nom = produit.Nom;
+                existing.Prix = produit.Prix;
                 existing.Quantite = produit.Quantite;
                 existing.CategorieId = produit.CategorieId;
 
@@ -52,9 +53,10 @@ namespace StockLibrary.Repositories
         }
 
         // Delete
-        public void Delete(int id)
+        public void Delete(int Id)
+
         {
-            var produit = _context.Produits.Find(id);
+            var produit = _context.Produits.Find(Id);
             if (produit != null)
             {
                 _context.Produits.Remove(produit);

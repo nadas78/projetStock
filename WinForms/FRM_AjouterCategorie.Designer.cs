@@ -97,7 +97,7 @@
             NomCategorie.Size = new Size(222, 27);
             NomCategorie.TabIndex = 31;
             NomCategorie.Text = "Nom de Catégorie";
-         
+            NomCategorie.TextChanged += NomCategorie_TextChanged;
             // 
             // label1
             // 
@@ -109,7 +109,6 @@
             label1.Size = new Size(247, 36);
             label1.TabIndex = 30;
             label1.Text = "Ajouter Catégorie";
-           
             // 
             // btnquiter
             // 

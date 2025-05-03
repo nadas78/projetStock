@@ -30,10 +30,7 @@
         {
             components = new System.ComponentModel.Container();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            button5 = new Button();
-            btnafficheIm = new Button();
             button2 = new Button();
-            buttIprimer = new Button();
             dvglProduit = new DataGridView();
             idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             nomDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
@@ -53,38 +50,6 @@
             ((System.ComponentModel.ISupportInitialize)produitBindingSource).BeginInit();
             SuspendLayout();
             // 
-            // button5
-            // 
-            button5.BackColor = Color.FromArgb(30, 28, 38);
-            button5.FlatAppearance.BorderSize = 0;
-            button5.FlatStyle = FlatStyle.Flat;
-            button5.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button5.ForeColor = SystemColors.ControlLightLight;
-            button5.ImageAlign = ContentAlignment.MiddleLeft;
-            button5.Location = new Point(830, 91);
-            button5.Name = "button5";
-            button5.Size = new Size(242, 53);
-            button5.TabIndex = 33;
-            button5.Text = "Actualiser";
-            button5.UseVisualStyleBackColor = false;
-      
-            // 
-            // btnafficheIm
-            // 
-            btnafficheIm.BackColor = Color.FromArgb(30, 28, 38);
-            btnafficheIm.FlatAppearance.BorderSize = 0;
-            btnafficheIm.FlatStyle = FlatStyle.Flat;
-            btnafficheIm.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnafficheIm.ForeColor = SystemColors.ControlLightLight;
-            btnafficheIm.ImageAlign = ContentAlignment.MiddleLeft;
-            btnafficheIm.Location = new Point(817, 11);
-            btnafficheIm.Name = "btnafficheIm";
-            btnafficheIm.Size = new Size(278, 53);
-            btnafficheIm.TabIndex = 32;
-            btnafficheIm.Text = "   Afficher Photo";
-            btnafficheIm.UseVisualStyleBackColor = false;
-            
-            // 
             // button2
             // 
             button2.BackColor = Color.FromArgb(30, 28, 38);
@@ -93,29 +58,12 @@
             button2.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.ForeColor = SystemColors.ControlLightLight;
             button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(788, 565);
+            button2.Location = new Point(27, 564);
             button2.Name = "button2";
             button2.Size = new Size(320, 53);
             button2.TabIndex = 31;
             button2.Text = "   Sauvegarder dans Excel";
             button2.UseVisualStyleBackColor = false;
-         
-            // 
-            // buttIprimer
-            // 
-            buttIprimer.BackColor = Color.FromArgb(30, 28, 38);
-            buttIprimer.FlatAppearance.BorderSize = 0;
-            buttIprimer.FlatStyle = FlatStyle.Flat;
-            buttIprimer.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttIprimer.ForeColor = SystemColors.ControlLightLight;
-            buttIprimer.ImageAlign = ContentAlignment.MiddleLeft;
-            buttIprimer.Location = new Point(44, 565);
-            buttIprimer.Name = "buttIprimer";
-            buttIprimer.Size = new Size(301, 53);
-            buttIprimer.TabIndex = 30;
-            buttIprimer.Text = "   Imprimer PR cocher";
-            buttIprimer.UseVisualStyleBackColor = false;
-          
             // 
             // dvglProduit
             // 
@@ -141,9 +89,10 @@
             dvglProduit.RowHeadersVisible = false;
             dvglProduit.RowHeadersWidth = 51;
             dvglProduit.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            dvglProduit.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dvglProduit.Size = new Size(1081, 383);
             dvglProduit.TabIndex = 29;
-            
+            dvglProduit.CellContentClick += dvglProduit_CellContentClick;
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -191,7 +140,7 @@
             // panel3
             // 
             panel3.BackColor = Color.FromArgb(30, 28, 38);
-            panel3.Location = new Point(270, 137);
+            panel3.Location = new Point(590, 137);
             panel3.Name = "panel3";
             panel3.Size = new Size(526, 3);
             panel3.TabIndex = 28;
@@ -213,13 +162,13 @@
             btnmodifierclient.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnmodifierclient.ForeColor = SystemColors.ControlLightLight;
             btnmodifierclient.ImageAlign = ContentAlignment.MiddleLeft;
-            btnmodifierclient.Location = new Point(295, 11);
+            btnmodifierclient.Location = new Point(383, 10);
             btnmodifierclient.Name = "btnmodifierclient";
             btnmodifierclient.Size = new Size(233, 53);
             btnmodifierclient.TabIndex = 25;
             btnmodifierclient.Text = "Modifier";
             btnmodifierclient.UseVisualStyleBackColor = false;
-         
+            btnmodifierclient.Click += btnmodifierclient_Click;
             // 
             // btnsupprimerclient
             // 
@@ -229,13 +178,13 @@
             btnsupprimerclient.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnsupprimerclient.ForeColor = SystemColors.ControlLightLight;
             btnsupprimerclient.ImageAlign = ContentAlignment.MiddleLeft;
-            btnsupprimerclient.Location = new Point(550, 10);
+            btnsupprimerclient.Location = new Point(746, 10);
             btnsupprimerclient.Name = "btnsupprimerclient";
             btnsupprimerclient.Size = new Size(246, 53);
             btnsupprimerclient.TabIndex = 24;
             btnsupprimerclient.Text = "Supprimer";
             btnsupprimerclient.UseVisualStyleBackColor = false;
-          
+            btnsupprimerclient.Click += btnsupprimerclient_Click;
             // 
             // btnajouterclient
             // 
@@ -245,7 +194,7 @@
             btnajouterclient.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnajouterclient.ForeColor = SystemColors.ControlLightLight;
             btnajouterclient.ImageAlign = ContentAlignment.MiddleLeft;
-            btnajouterclient.Location = new Point(44, 10);
+            btnajouterclient.Location = new Point(44, 12);
             btnajouterclient.Name = "btnajouterclient";
             btnajouterclient.Size = new Size(222, 53);
             btnajouterclient.TabIndex = 23;
@@ -259,24 +208,21 @@
             textBox1.BorderStyle = BorderStyle.None;
             textBox1.Font = new Font("Tahoma", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             textBox1.ForeColor = Color.DimGray;
-            textBox1.Location = new Point(344, 98);
+            textBox1.Location = new Point(664, 98);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
+            textBox1.PlaceholderText = "Recherche";
             textBox1.Size = new Size(297, 33);
             textBox1.TabIndex = 27;
-            textBox1.Text = "Recherche";
             textBox1.TextAlign = HorizontalAlignment.Center;
-        
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // FRM_Produit
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1135, 629);
-            Controls.Add(button5);
-            Controls.Add(btnafficheIm);
             Controls.Add(button2);
-            Controls.Add(buttIprimer);
             Controls.Add(dvglProduit);
             Controls.Add(panel3);
             Controls.Add(panel1);
@@ -295,11 +241,7 @@
         }
 
         #endregion
-
-        private Button button5;
-        private Button btnafficheIm;
         private Button button2;
-        private Button buttIprimer;
         private DataGridView dvglProduit;
         private Panel panel3;
         private Panel panel1;

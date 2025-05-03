@@ -62,5 +62,10 @@ namespace WinForms
             this.DialogResult = DialogResult.OK;
             this.Close();
         }
+
+        private void NomCategorie_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

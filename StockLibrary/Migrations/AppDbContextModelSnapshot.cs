@@ -30,6 +30,41 @@ namespace StockLibrary.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("StockLibrary.Entities.Client", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("Adresse")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Nom")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Prenom")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Telephone")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Ville")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Clients");
+                });
+
             modelBuilder.Entity("StockLibrary.Entities.Produit", b =>
                 {
                     b.Property<int>("Id")
@@ -47,8 +82,8 @@ namespace StockLibrary.Migrations
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("Prix")
-                        .HasColumnType("INTEGER");
+                    b.Property<decimal>("Prix")
+                        .HasColumnType("TEXT");
 
                     b.Property<int>("Quantite")
                         .HasColumnType("INTEGER");

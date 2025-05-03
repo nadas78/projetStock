@@ -12,6 +12,8 @@ public class AppDbContext : DbContext
 
     public DbSet<Categorie> Categories { get; set; }
     public DbSet<Produit> Produits { get; set; }
+    public DbSet<Client> Clients { get; set; }
+
 
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

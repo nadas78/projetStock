@@ -7,10 +7,16 @@
     <Compile Update="FRM_AjouterCategorie.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FRM_AjouterClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FRM_AjouterProduit.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FRM_Categorie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FRM_Client.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="FRM_Produit.cs">

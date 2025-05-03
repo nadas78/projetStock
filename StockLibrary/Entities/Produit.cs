@@ -11,7 +11,7 @@ namespace StockLibrary.Entities
         public int Id { get; set; }
         public string Nom { get; set; }
         public int Quantite { get; set; }
-        public int Prix { get; set; }
+        public decimal Prix { get; set; }
 
         // Clé étrangère
         public int CategorieId { get; set; }
