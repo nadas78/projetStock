@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\StockLibrary\\WinForms\\WinForms.csproj": {}
+    "F:\\projetStock\\WinForms\\WinForms.csproj": {}
   },
   "projects": {
-    "D:\\StockLibrary\\StockLibrary\\StockLibrary.csproj": {
+    "F:\\projetStock\\StockLibrary\\StockLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\StockLibrary\\StockLibrary\\StockLibrary.csproj",
+        "projectUniqueName": "F:\\projetStock\\StockLibrary\\StockLibrary.csproj",
         "projectName": "StockLibrary",
-        "projectPath": "D:\\StockLibrary\\StockLibrary\\StockLibrary.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\StockLibrary\\StockLibrary\\obj\\",
+        "projectPath": "F:\\projetStock\\StockLibrary\\StockLibrary.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "F:\\projetStock\\StockLibrary\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,17 +94,21 @@
         }
       }
     },
-    "D:\\StockLibrary\\WinForms\\WinForms.csproj": {
+    "F:\\projetStock\\WinForms\\WinForms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\StockLibrary\\WinForms\\WinForms.csproj",
+        "projectUniqueName": "F:\\projetStock\\WinForms\\WinForms.csproj",
         "projectName": "WinForms",
-        "projectPath": "D:\\StockLibrary\\WinForms\\WinForms.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "D:\\StockLibrary\\WinForms\\obj\\",
+        "projectPath": "F:\\projetStock\\WinForms\\WinForms.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "F:\\projetStock\\WinForms\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -114,8 +122,8 @@
           "net8.0-windows7.0": {
             "targetAlias": "net8.0-windows",
             "projectReferences": {
-              "D:\\StockLibrary\\StockLibrary\\StockLibrary.csproj": {
-                "projectPath": "D:\\StockLibrary\\StockLibrary\\StockLibrary.csproj"
+              "F:\\projetStock\\StockLibrary\\StockLibrary.csproj": {
+                "projectPath": "F:\\projetStock\\StockLibrary\\StockLibrary.csproj"
               }
             }
           }
@@ -139,6 +147,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[9.0.4, )"
             }

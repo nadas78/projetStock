@@ -9,6 +9,7 @@
       "WinForms/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Sqlite": "9.0.4",
           "StockLibrary": "1.0.0"
         },
         "runtime": {

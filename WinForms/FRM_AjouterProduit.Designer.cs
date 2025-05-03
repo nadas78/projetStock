@@ -32,8 +32,6 @@
             btnquiter = new Button();
             combocategorie = new ComboBox();
             label2 = new Label();
-            btnEnregister = new Button();
-            btnActualiser = new Button();
             panel7 = new Panel();
             txtprix = new TextBox();
             panel6 = new Panel();
@@ -51,7 +49,6 @@
             categorieBindingSource = new BindingSource(components);
             label3 = new Label();
             buttonEnregistrer = new Button();
-            buttonActualiser = new Button();
             panel8 = new Panel();
             textPrix = new TextBox();
             produitBindingSource = new BindingSource(components);
@@ -100,34 +97,6 @@
             label2.Size = new Size(114, 24);
             label2.TabIndex = 41;
             label2.Text = "Categorie:";
-            // 
-            // btnEnregister
-            // 
-            btnEnregister.BackColor = Color.FromArgb(178, 8, 55);
-            btnEnregister.FlatAppearance.BorderSize = 0;
-            btnEnregister.FlatStyle = FlatStyle.Flat;
-            btnEnregister.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnEnregister.ForeColor = SystemColors.ControlLightLight;
-            btnEnregister.Location = new Point(449, 383);
-            btnEnregister.Name = "btnEnregister";
-            btnEnregister.Size = new Size(248, 43);
-            btnEnregister.TabIndex = 40;
-            btnEnregister.Text = "Enregistrer";
-            btnEnregister.UseVisualStyleBackColor = false;
-            // 
-            // btnActualiser
-            // 
-            btnActualiser.BackColor = Color.FromArgb(178, 8, 55);
-            btnActualiser.FlatAppearance.BorderSize = 0;
-            btnActualiser.FlatStyle = FlatStyle.Flat;
-            btnActualiser.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnActualiser.ForeColor = SystemColors.ControlLightLight;
-            btnActualiser.Location = new Point(71, 383);
-            btnActualiser.Name = "btnActualiser";
-            btnActualiser.Size = new Size(268, 43);
-            btnActualiser.TabIndex = 39;
-            btnActualiser.Text = "Actualiser";
-            btnActualiser.UseVisualStyleBackColor = false;
             // 
             // panel7
             // 
@@ -292,27 +261,13 @@
             buttonEnregistrer.FlatStyle = FlatStyle.Flat;
             buttonEnregistrer.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             buttonEnregistrer.ForeColor = SystemColors.ControlLightLight;
-            buttonEnregistrer.Location = new Point(449, 383);
+            buttonEnregistrer.Location = new Point(287, 385);
             buttonEnregistrer.Name = "buttonEnregistrer";
             buttonEnregistrer.Size = new Size(248, 43);
             buttonEnregistrer.TabIndex = 61;
             buttonEnregistrer.Text = "Enregistrer";
             buttonEnregistrer.UseVisualStyleBackColor = false;
             buttonEnregistrer.Click += buttonEnregistrer_Click;
-            // 
-            // buttonActualiser
-            // 
-            buttonActualiser.BackColor = Color.FromArgb(178, 8, 55);
-            buttonActualiser.FlatAppearance.BorderSize = 0;
-            buttonActualiser.FlatStyle = FlatStyle.Flat;
-            buttonActualiser.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            buttonActualiser.ForeColor = SystemColors.ControlLightLight;
-            buttonActualiser.Location = new Point(71, 383);
-            buttonActualiser.Name = "buttonActualiser";
-            buttonActualiser.Size = new Size(268, 43);
-            buttonActualiser.TabIndex = 60;
-            buttonActualiser.Text = "Actualiser";
-            buttonActualiser.UseVisualStyleBackColor = false;
             // 
             // panel8
             // 
@@ -462,7 +417,6 @@
             Controls.Add(comboBoxCategorie);
             Controls.Add(label3);
             Controls.Add(buttonEnregistrer);
-            Controls.Add(buttonActualiser);
             Controls.Add(panel8);
             Controls.Add(textPrix);
             Controls.Add(panel9);
@@ -479,8 +433,6 @@
             Controls.Add(btnquiter);
             Controls.Add(combocategorie);
             Controls.Add(label2);
-            Controls.Add(btnEnregister);
-            Controls.Add(btnActualiser);
             Controls.Add(panel7);
             Controls.Add(txtprix);
             Controls.Add(panel6);
@@ -511,8 +463,6 @@
         private Button btnquiter;
         private ComboBox combocategorie;
         private Label label2;
-        private Button btnEnregister;
-        private Button btnActualiser;
         private Panel panel7;
         private TextBox txtprix;
         private Panel panel6;
@@ -529,7 +479,6 @@
         private ComboBox comboBoxCategorie;
         private Label label3;
         private Button buttonEnregistrer;
-        private Button buttonActualiser;
         private Panel panel8;
         private TextBox textPrix;
         private Panel panel9;

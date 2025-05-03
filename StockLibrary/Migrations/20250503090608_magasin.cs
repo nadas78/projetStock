@@ -5,7 +5,7 @@
 namespace StockLibrary.Migrations
 {
     /// <inheritdoc />
-    public partial class @base : Migration
+    public partial class magasin : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -16,11 +16,29 @@ namespace StockLibrary.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Nom = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false)
+                    Nom = table.Column<string>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Categories", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Clients",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    Nom = table.Column<string>(type: "TEXT", nullable: false),
+                    Prenom = table.Column<string>(type: "TEXT", nullable: false),
+                    Adresse = table.Column<string>(type: "TEXT", nullable: false),
+                    Ville = table.Column<string>(type: "TEXT", nullable: false),
+                    Telephone = table.Column<string>(type: "TEXT", nullable: false),
+                    Email = table.Column<string>(type: "TEXT", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Clients", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -29,9 +47,11 @@ namespace StockLibrary.Migrations
                 {
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    Nom = table.Column<string>(type: "TEXT", maxLength: 100, nullable: false),
+                    Nom = table.Column<string>(type: "TEXT", nullable: false),
                     Quantite = table.Column<int>(type: "INTEGER", nullable: false),
-                    CategorieId = table.Column<int>(type: "INTEGER", nullable: false)
+                    Prix = table.Column<decimal>(type: "TEXT", nullable: false),
+                    CategorieId = table.Column<int>(type: "INTEGER", nullable: false),
+                    Image = table.Column<byte[]>(type: "BLOB", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -41,7 +61,7 @@ namespace StockLibrary.Migrations
                         column: x => x.CategorieId,
                         principalTable: "Categories",
                         principalColumn: "Id",
-                        onDelete: ReferentialAction.SetNull);
+                        onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
@@ -53,6 +73,9 @@ namespace StockLibrary.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "Clients");
+
             migrationBuilder.DropTable(
                 name: "Produits");
 

@@ -1,124 +1,206 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\StockLibrary\\",
+  "WorkspaceRootPath": "F:\\projetStock\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|d:\\stocklibrary\\winforms\\frm_ajouterproduit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_ajouterproduit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_ajoutercommande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_ajoutercommande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|d:\\stocklibrary\\winforms\\frm_ajouterproduit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_ajouterproduit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_ajoutercommande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_ajoutercommande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|D:\\StockLibrary\\winforms\\frm_ajoutercategorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_ajoutercategorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\listeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\listeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|d:\\stocklibrary\\winforms\\frm_produit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_produit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|F:\\projetStock\\winforms\\frm_ajouterclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_ajouterclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|d:\\stocklibrary\\winforms\\frm_produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\listeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\listeclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|d:\\stocklibrary\\winforms\\frm_ajouterproduit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_ajouterproduit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|d:\\stocklibrary\\stocklibrary\\repositories\\produitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|solutionrelative:stocklibrary\\repositories\\produitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|d:\\stocklibrary\\stocklibrary\\repositories\\categorierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|solutionrelative:stocklibrary\\repositories\\categorierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|d:\\stocklibrary\\stocklibrary\\entities\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|solutionrelative:stocklibrary\\entities\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|d:\\stocklibrary\\stocklibrary\\entities\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|solutionrelative:stocklibrary\\entities\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|d:\\stocklibrary\\winforms\\frm_produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|d:\\stocklibrary\\stocklibrary\\migrations\\20250501152646_addprixtoproduit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|solutionrelative:stocklibrary\\migrations\\20250501152646_addprixtoproduit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|d:\\stocklibrary\\winforms\\frm_categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|d:\\stocklibrary\\winforms\\frm_produit.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_produit.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|d:\\stocklibrary\\winforms\\frm_categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\StockLibrary\\StockLibrary\\Migrations\\20250501151024_AddImageToProduit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StockLibrary\\Migrations\\20250501151024_AddImageToProduit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|d:\\stocklibrary\\winforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|d:\\stocklibrary\\stocklibrary\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|F:\\projetStock\\winforms\\frm_categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_ajoutercommande.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_ajoutercommande.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|F:\\projetStock\\winforms\\frm_ajoutercategorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_ajoutercategorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|F:\\projetStock\\winforms\\frm_ajouterproduit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_ajouterproduit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|f:\\projetstock\\stocklibrary\\entities\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|solutionrelative:stocklibrary\\entities\\categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|F:\\projetStock\\winforms\\frm_produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_client.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_client.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\listeclient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\listeclient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|f:\\projetstock\\stocklibrary\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|solutionrelative:stocklibrary\\entities\\client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|f:\\projetstock\\stocklibrary\\entities\\commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|solutionrelative:stocklibrary\\entities\\commande.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_categorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_client.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_client.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_ajouterclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_ajouterclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|F:\\projetStock\\winforms\\frm_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_client.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|f:\\projetstock\\stocklibrary\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|solutionrelative:stocklibrary\\repositories\\clientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_ajouterproduit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_ajouterproduit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_ajouterclient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_ajouterclient.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_ajouterclient.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_ajouterclient.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|f:\\projetstock\\stocklibrary\\repositories\\produitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|solutionrelative:stocklibrary\\repositories\\produitrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|f:\\projetstock\\stocklibrary\\repositories\\categorierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|solutionrelative:stocklibrary\\repositories\\categorierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|f:\\projetstock\\stocklibrary\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|solutionrelative:stocklibrary\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|d:\\stocklibrary\\winforms\\frm_categorie.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_categorie.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|d:\\stocklibrary\\winforms\\frm_ajoutercategorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_ajoutercategorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_ajoutercategorie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|D:\\StockLibrary\\winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250503072056_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502224651_InitBaseComplete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502224344_AddClientTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502223634_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502222532_AddClientTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|f:\\projetstock\\stocklibrary\\entities\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|solutionrelative:stocklibrary\\entities\\produit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_produit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_produit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502105744_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502104728_AddImageToProduit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_ajouterproduit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_ajouterproduit.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_produit.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_produit.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_categorie.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_categorie.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|F:\\projetStock\\winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|d:\\stocklibrary\\winforms\\frm_ajoutercategorie.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|f:\\projetstock\\winforms\\frm_ajoutercategorie.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB5EB514-4401-4FE4-A1ED-F2EA6313B20A}|WinForms\\WinForms.csproj|solutionrelative:winforms\\frm_ajoutercategorie.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\StockLibrary\\StockLibrary\\Migrations\\20250501101306_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StockLibrary\\Migrations\\20250501101306_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\StockLibrary\\StockLibrary\\Migrations\\20250501101306_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\StockLibrary\\StockLibrary\\Migrations\\20250501111633_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StockLibrary\\Migrations\\20250501111633_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|d:\\stocklibrary\\stocklibrary\\context\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|f:\\projetstock\\stocklibrary\\context\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|solutionrelative:stocklibrary\\context\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\StockLibrary\\StockLibrary\\Migrations\\20250501105320_base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StockLibrary\\Migrations\\20250501105320_base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\StockLibrary\\StockLibrary\\Migrations\\20250501085420_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\StockLibrary\\StockLibrary\\Migrations\\20250501085420_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:StockLibrary\\Migrations\\20250501085420_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|f:\\projetstock\\stocklibrary\\migrations\\20250503090608_magasin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24B2B564-62FC-48D8-BC10-DD953304B39D}|StockLibrary\\StockLibrary.csproj|solutionrelative:stocklibrary\\migrations\\20250503090608_magasin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 100,
+      "VerticalTabListWidth": 229,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -162,146 +244,98 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "20250501152646_AddPrixToProduit.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\StockLibrary\\Migrations\\20250501152646_AddPrixToProduit.cs",
-              "RelativeDocumentMoniker": "StockLibrary\\Migrations\\20250501152646_AddPrixToProduit.cs",
-              "ToolTip": "D:\\StockLibrary\\StockLibrary\\Migrations\\20250501152646_AddPrixToProduit.cs",
-              "RelativeToolTip": "StockLibrary\\Migrations\\20250501152646_AddPrixToProduit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T15:26:48.499Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FRM_Produit.resx",
-              "DocumentMoniker": "D:\\StockLibrary\\WinForms\\FRM_Produit.resx",
-              "RelativeDocumentMoniker": "WinForms\\FRM_Produit.resx",
-              "ToolTip": "D:\\StockLibrary\\WinForms\\FRM_Produit.resx",
-              "RelativeToolTip": "WinForms\\FRM_Produit.resx",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2025-05-01T15:22:02.306Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "20250501151024_AddImageToProduit.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\StockLibrary\\Migrations\\20250501151024_AddImageToProduit.cs",
-              "RelativeDocumentMoniker": "StockLibrary\\Migrations\\20250501151024_AddImageToProduit.cs",
-              "ToolTip": "D:\\StockLibrary\\StockLibrary\\Migrations\\20250501151024_AddImageToProduit.cs",
-              "RelativeToolTip": "StockLibrary\\Migrations\\20250501151024_AddImageToProduit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T15:10:24.673Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FRM_Produit.Designer.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\WinForms\\FRM_Produit.Designer.cs",
-              "RelativeDocumentMoniker": "WinForms\\FRM_Produit.Designer.cs",
-              "ToolTip": "D:\\StockLibrary\\WinForms\\FRM_Produit.Designer.cs",
-              "RelativeToolTip": "WinForms\\FRM_Produit.Designer.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAqwFUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:56:00.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FRM_AjouterProduit.cs [Conception]",
-              "DocumentMoniker": "D:\\StockLibrary\\WinForms\\FRM_AjouterProduit.cs",
-              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterProduit.cs",
-              "ToolTip": "D:\\StockLibrary\\WinForms\\FRM_AjouterProduit.cs [Conception]",
-              "RelativeToolTip": "WinForms\\FRM_AjouterProduit.cs [Conception]",
+              "Title": "FRM_AjouterCommande.cs [Conception]",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_AjouterCommande.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterCommande.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_AjouterCommande.cs [Conception]",
+              "RelativeToolTip": "WinForms\\FRM_AjouterCommande.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:43:24.359Z",
+              "WhenOpened": "2025-05-03T12:03:44.234Z",
               "EditorCaption": " [Conception]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FRM_AjouterProduit.Designer.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\WinForms\\FRM_AjouterProduit.Designer.cs",
-              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterProduit.Designer.cs",
-              "ToolTip": "D:\\StockLibrary\\WinForms\\FRM_AjouterProduit.Designer.cs",
-              "RelativeToolTip": "WinForms\\FRM_AjouterProduit.Designer.cs",
-              "ViewState": "AgIAAMEAAAAAAAAAAAASwNAAAAApAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "FRM_AjouterClient.cs [Conception]",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_AjouterClient.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterClient.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_AjouterClient.cs [Conception]",
+              "RelativeToolTip": "WinForms\\FRM_AjouterClient.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:42:51.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FRM_Produit.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\WinForms\\FRM_Produit.cs",
-              "RelativeDocumentMoniker": "WinForms\\FRM_Produit.cs",
-              "ToolTip": "D:\\StockLibrary\\WinForms\\FRM_Produit.cs",
-              "RelativeToolTip": "WinForms\\FRM_Produit.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwC0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:13:49.343Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ProduitRepository.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\StockLibrary\\Repositories\\ProduitRepository.cs",
-              "RelativeDocumentMoniker": "StockLibrary\\Repositories\\ProduitRepository.cs",
-              "ToolTip": "D:\\StockLibrary\\StockLibrary\\Repositories\\ProduitRepository.cs",
-              "RelativeToolTip": "StockLibrary\\Repositories\\ProduitRepository.cs",
-              "ViewState": "AgIAACIAAAAAAAAAAAAkwDEAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T13:34:23.7Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FRM_Produit.cs [Conception]",
-              "DocumentMoniker": "D:\\StockLibrary\\WinForms\\FRM_Produit.cs",
-              "RelativeDocumentMoniker": "WinForms\\FRM_Produit.cs",
-              "ToolTip": "D:\\StockLibrary\\WinForms\\FRM_Produit.cs [Conception]",
-              "RelativeToolTip": "WinForms\\FRM_Produit.cs [Conception]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T13:32:54.395Z",
+              "WhenOpened": "2025-05-03T09:41:11.728Z",
               "EditorCaption": " [Conception]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FRM_AjouterProduit.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\WinForms\\FRM_AjouterProduit.cs",
-              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterProduit.cs",
-              "ToolTip": "D:\\StockLibrary\\WinForms\\FRM_AjouterProduit.cs",
-              "RelativeToolTip": "WinForms\\FRM_AjouterProduit.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAEwCEAAABGAAAAAAAAAA==",
+              "Title": "FRM_AjouterCommande.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_AjouterCommande.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterCommande.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_AjouterCommande.cs",
+              "RelativeToolTip": "WinForms\\FRM_AjouterCommande.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T13:30:53.958Z",
+              "WhenOpened": "2025-05-03T10:49:04.173Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
+              "Title": "ListeClient.cs [Conception]",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\ListeClient.cs",
+              "RelativeDocumentMoniker": "WinForms\\ListeClient.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\ListeClient.cs [Conception]",
+              "RelativeToolTip": "WinForms\\ListeClient.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T10:40:19.291Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ListeClient.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\ListeClient.cs",
+              "RelativeDocumentMoniker": "WinForms\\ListeClient.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\ListeClient.cs",
+              "RelativeToolTip": "WinForms\\ListeClient.cs",
+              "ViewState": "AgIAACUAAAAAa4yHdcwkwCIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T11:06:32.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\Program.cs",
+              "RelativeDocumentMoniker": "WinForms\\Program.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\Program.cs",
+              "RelativeToolTip": "WinForms\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:54:09.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FRM_Commande.cs [Conception]",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_Commande.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_Commande.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_Commande.cs [Conception]",
+              "RelativeToolTip": "WinForms\\FRM_Commande.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T10:24:30.815Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "FRM_Categorie.cs [Conception]",
-              "DocumentMoniker": "D:\\StockLibrary\\WinForms\\FRM_Categorie.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_Categorie.cs",
               "RelativeDocumentMoniker": "WinForms\\FRM_Categorie.cs",
-              "ToolTip": "D:\\StockLibrary\\WinForms\\FRM_Categorie.cs [Conception]",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_Categorie.cs [Conception]",
               "RelativeToolTip": "WinForms\\FRM_Categorie.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-01T13:20:28.028Z",
@@ -309,163 +343,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "FRM_AjouterCategorie.Designer.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\WinForms\\FRM_AjouterCategorie.Designer.cs",
-              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterCategorie.Designer.cs",
-              "ToolTip": "D:\\StockLibrary\\WinForms\\FRM_AjouterCategorie.Designer.cs",
-              "RelativeToolTip": "WinForms\\FRM_AjouterCategorie.Designer.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAmwGQAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "FRM_AjouterCommande.Designer.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_AjouterCommande.Designer.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterCommande.Designer.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_AjouterCommande.Designer.cs",
+              "RelativeToolTip": "WinForms\\FRM_AjouterCommande.Designer.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAuwJoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T12:09:22.219Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "20250501111633_Init.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\StockLibrary\\Migrations\\20250501111633_Init.cs",
-              "RelativeDocumentMoniker": "StockLibrary\\Migrations\\20250501111633_Init.cs",
-              "ToolTip": "D:\\StockLibrary\\StockLibrary\\Migrations\\20250501111633_Init.cs",
-              "RelativeToolTip": "StockLibrary\\Migrations\\20250501111633_Init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:16:34.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AppDbContextFactory.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\StockLibrary\\Context\\AppDbContextFactory.cs",
-              "RelativeDocumentMoniker": "StockLibrary\\Context\\AppDbContextFactory.cs",
-              "ToolTip": "D:\\StockLibrary\\StockLibrary\\Context\\AppDbContextFactory.cs",
-              "RelativeToolTip": "StockLibrary\\Context\\AppDbContextFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T11:04:59.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "20250501105320_base.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\StockLibrary\\Migrations\\20250501105320_base.cs",
-              "RelativeDocumentMoniker": "StockLibrary\\Migrations\\20250501105320_base.cs",
-              "ToolTip": "D:\\StockLibrary\\StockLibrary\\Migrations\\20250501105320_base.cs",
-              "RelativeToolTip": "StockLibrary\\Migrations\\20250501105320_base.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T10:53:20.929Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "20250501101306_Init.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\StockLibrary\\Migrations\\20250501101306_Init.cs",
-              "RelativeDocumentMoniker": "StockLibrary\\Migrations\\20250501101306_Init.cs",
-              "ToolTip": "D:\\StockLibrary\\StockLibrary\\Migrations\\20250501101306_Init.cs",
-              "RelativeToolTip": "StockLibrary\\Migrations\\20250501101306_Init.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T10:13:07.293Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\WinForms\\Program.cs",
-              "RelativeDocumentMoniker": "WinForms\\Program.cs",
-              "ToolTip": "D:\\StockLibrary\\WinForms\\Program.cs",
-              "RelativeToolTip": "WinForms\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADgvw8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T09:54:09.707Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "FRM_AjouterCategorie.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\WinForms\\FRM_AjouterCategorie.cs",
-              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterCategorie.cs",
-              "ToolTip": "D:\\StockLibrary\\WinForms\\FRM_AjouterCategorie.cs",
-              "RelativeToolTip": "WinForms\\FRM_AjouterCategorie.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAEwEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T09:31:20.719Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CategorieRepository.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\StockLibrary\\Repositories\\CategorieRepository.cs",
-              "RelativeDocumentMoniker": "StockLibrary\\Repositories\\CategorieRepository.cs",
-              "ToolTip": "D:\\StockLibrary\\StockLibrary\\Repositories\\CategorieRepository.cs",
-              "RelativeToolTip": "StockLibrary\\Repositories\\CategorieRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T09:17:20.61Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "FRM_Categorie.Designer.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\WinForms\\FRM_Categorie.Designer.cs",
-              "RelativeDocumentMoniker": "WinForms\\FRM_Categorie.Designer.cs",
-              "ToolTip": "D:\\StockLibrary\\WinForms\\FRM_Categorie.Designer.cs",
-              "RelativeToolTip": "WinForms\\FRM_Categorie.Designer.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAASwHEAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T09:05:04.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FRM_Categorie.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\WinForms\\FRM_Categorie.cs",
-              "RelativeDocumentMoniker": "WinForms\\FRM_Categorie.cs",
-              "ToolTip": "D:\\StockLibrary\\WinForms\\FRM_Categorie.cs",
-              "RelativeToolTip": "WinForms\\FRM_Categorie.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCIAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T09:00:07.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "20250501085420_Init.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\StockLibrary\\Migrations\\20250501085420_Init.cs",
-              "RelativeDocumentMoniker": "StockLibrary\\Migrations\\20250501085420_Init.cs",
-              "ToolTip": "D:\\StockLibrary\\StockLibrary\\Migrations\\20250501085420_Init.cs",
-              "RelativeToolTip": "StockLibrary\\Migrations\\20250501085420_Init.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T08:54:20.914Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\StockLibrary\\Context\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "StockLibrary\\Context\\AppDbContext.cs",
-              "ToolTip": "D:\\StockLibrary\\StockLibrary\\Context\\AppDbContext.cs",
-              "RelativeToolTip": "StockLibrary\\Context\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T08:39:37.363Z",
+              "WhenOpened": "2025-05-03T10:49:49.697Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "FRM_AjouterCategorie.cs [Conception]",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_AjouterCategorie.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterCategorie.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_AjouterCategorie.cs [Conception]",
+              "RelativeToolTip": "WinForms\\FRM_AjouterCategorie.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:00:39.693Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FRM_AjouterProduit.cs [Conception]",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_AjouterProduit.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterProduit.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_AjouterProduit.cs [Conception]",
+              "RelativeToolTip": "WinForms\\FRM_AjouterProduit.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:43:24.359Z",
+              "EditorCaption": " [Conception]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Categorie.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\StockLibrary\\Entities\\Categorie.cs",
+              "DocumentMoniker": "F:\\projetStock\\StockLibrary\\Entities\\Categorie.cs",
               "RelativeDocumentMoniker": "StockLibrary\\Entities\\Categorie.cs",
-              "ToolTip": "D:\\StockLibrary\\StockLibrary\\Entities\\Categorie.cs",
+              "ToolTip": "F:\\projetStock\\StockLibrary\\Entities\\Categorie.cs",
               "RelativeToolTip": "StockLibrary\\Entities\\Categorie.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -474,40 +393,451 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Produit.cs",
-              "DocumentMoniker": "D:\\StockLibrary\\StockLibrary\\Entities\\Produit.cs",
-              "RelativeDocumentMoniker": "StockLibrary\\Entities\\Produit.cs",
-              "ToolTip": "D:\\StockLibrary\\StockLibrary\\Entities\\Produit.cs",
-              "RelativeToolTip": "StockLibrary\\Entities\\Produit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T08:35:12.071Z",
+              "DocumentIndex": 12,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAOIJAAAAAAAAAADwv/MUAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-03T11:30:34.602Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FRM_AjouterCategorie.cs [Conception]",
-              "DocumentMoniker": "D:\\StockLibrary\\WinForms\\FRM_AjouterCategorie.cs",
-              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterCategorie.cs",
-              "ToolTip": "D:\\StockLibrary\\WinForms\\FRM_AjouterCategorie.cs [Conception]",
-              "RelativeToolTip": "WinForms\\FRM_AjouterCategorie.cs [Conception]",
+              "DocumentIndex": 13,
+              "Title": "FRM_Client.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_Client.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_Client.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_Client.cs",
+              "RelativeToolTip": "WinForms\\FRM_Client.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAiwCAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T10:00:39.693Z",
+              "WhenOpened": "2025-05-02T21:29:12.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FRM_Produit.cs [Conception]",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_Produit.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_Produit.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_Produit.cs [Conception]",
+              "RelativeToolTip": "WinForms\\FRM_Produit.cs [Conception]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T13:32:54.395Z",
               "EditorCaption": " [Conception]"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "FRM_Client.Designer.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_Client.Designer.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_Client.Designer.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_Client.Designer.cs",
+              "RelativeToolTip": "WinForms\\FRM_Client.Designer.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAmwPQAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T10:20:13.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ListeClient.Designer.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\ListeClient.Designer.cs",
+              "RelativeDocumentMoniker": "WinForms\\ListeClient.Designer.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\ListeClient.Designer.cs",
+              "RelativeToolTip": "WinForms\\ListeClient.Designer.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAawD8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T11:17:14.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "FRM_Produit.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_Produit.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_Produit.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_Produit.cs",
+              "RelativeToolTip": "WinForms\\FRM_Produit.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAmwCIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:13:49.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Client.cs",
+              "DocumentMoniker": "F:\\projetStock\\StockLibrary\\Entities\\Client.cs",
+              "RelativeDocumentMoniker": "StockLibrary\\Entities\\Client.cs",
+              "ToolTip": "F:\\projetStock\\StockLibrary\\Entities\\Client.cs",
+              "RelativeToolTip": "StockLibrary\\Entities\\Client.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:10:05.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 20,
+              "Title": "FRM_Categorie.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_Categorie.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_Categorie.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_Categorie.cs",
+              "RelativeToolTip": "WinForms\\FRM_Categorie.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwB4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:00:07.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Commande.cs",
+              "DocumentMoniker": "F:\\projetStock\\StockLibrary\\Entities\\Commande.cs",
+              "RelativeDocumentMoniker": "StockLibrary\\Entities\\Commande.cs",
+              "ToolTip": "F:\\projetStock\\StockLibrary\\Entities\\Commande.cs",
+              "RelativeToolTip": "StockLibrary\\Entities\\Commande.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T10:55:02.538Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "FRM_Client.resx",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_Client.resx",
+              "RelativeDocumentMoniker": "WinForms\\FRM_Client.resx",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_Client.resx",
+              "RelativeToolTip": "WinForms\\FRM_Client.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-03T10:20:13.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "FRM_AjouterClient.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_AjouterClient.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterClient.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_AjouterClient.cs",
+              "RelativeToolTip": "WinForms\\FRM_AjouterClient.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAuwFkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:00:44.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "FRM_AjouterClient.resx",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_AjouterClient.resx",
+              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterClient.resx",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_AjouterClient.resx",
+              "RelativeToolTip": "WinForms\\FRM_AjouterClient.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-03T08:55:08.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20250503090608_magasin.cs",
+              "DocumentMoniker": "F:\\projetStock\\StockLibrary\\Migrations\\20250503090608_magasin.cs",
+              "RelativeDocumentMoniker": "StockLibrary\\Migrations\\20250503090608_magasin.cs",
+              "ToolTip": "F:\\projetStock\\StockLibrary\\Migrations\\20250503090608_magasin.cs",
+              "RelativeToolTip": "StockLibrary\\Migrations\\20250503090608_magasin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T09:06:09.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "FRM_AjouterClient.Designer.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_AjouterClient.Designer.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterClient.Designer.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_AjouterClient.Designer.cs",
+              "RelativeToolTip": "WinForms\\FRM_AjouterClient.Designer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAIBJwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T09:41:04.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FRM_Client.cs [Design]",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_Client.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_Client.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_Client.cs [Design]",
+              "RelativeToolTip": "WinForms\\FRM_Client.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T10:05:30.72Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250503072056_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250503072056_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250503072056_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-03T07:20:56.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20250502224651_InitBaseComplete.cs",
+              "DocumentMoniker": "C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502224651_InitBaseComplete.cs",
+              "ToolTip": "C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502224651_InitBaseComplete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:46:51.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "20250502224344_AddClientTable.cs",
+              "DocumentMoniker": "C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502224344_AddClientTable.cs",
+              "ToolTip": "C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502224344_AddClientTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:43:45.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "20250502223634_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502223634_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502223634_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:36:34.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20250502222532_AddClientTable.cs",
+              "DocumentMoniker": "C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502222532_AddClientTable.cs",
+              "ToolTip": "C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502222532_AddClientTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T22:25:32.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ClientRepository.cs",
+              "DocumentMoniker": "F:\\projetStock\\StockLibrary\\Repositories\\ClientRepository.cs",
+              "RelativeDocumentMoniker": "StockLibrary\\Repositories\\ClientRepository.cs",
+              "ToolTip": "F:\\projetStock\\StockLibrary\\Repositories\\ClientRepository.cs",
+              "RelativeToolTip": "StockLibrary\\Repositories\\ClientRepository.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAADAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T21:02:02.407Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20250502105744_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502105744_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502105744_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T10:57:45.082Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20250502104728_AddImageToProduit.cs",
+              "DocumentMoniker": "C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502104728_AddImageToProduit.cs",
+              "ToolTip": "C:\\Users\\user\\projetStock\\StockLibrary\\Migrations\\20250502104728_AddImageToProduit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T10:47:28.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "FRM_Produit.resx",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_Produit.resx",
+              "RelativeDocumentMoniker": "WinForms\\FRM_Produit.resx",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_Produit.resx",
+              "RelativeToolTip": "WinForms\\FRM_Produit.resx",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2025-05-01T15:22:02.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "FRM_Produit.Designer.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_Produit.Designer.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_Produit.Designer.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_Produit.Designer.cs",
+              "RelativeToolTip": "WinForms\\FRM_Produit.Designer.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAswJ4AAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:56:00.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "FRM_AjouterProduit.Designer.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_AjouterProduit.Designer.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterProduit.Designer.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_AjouterProduit.Designer.cs",
+              "RelativeToolTip": "WinForms\\FRM_AjouterProduit.Designer.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAASwNAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:42:51.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ProduitRepository.cs",
+              "DocumentMoniker": "F:\\projetStock\\StockLibrary\\Repositories\\ProduitRepository.cs",
+              "RelativeDocumentMoniker": "StockLibrary\\Repositories\\ProduitRepository.cs",
+              "ToolTip": "F:\\projetStock\\StockLibrary\\Repositories\\ProduitRepository.cs",
+              "RelativeToolTip": "StockLibrary\\Repositories\\ProduitRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T13:34:23.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "FRM_AjouterProduit.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_AjouterProduit.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterProduit.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_AjouterProduit.cs",
+              "RelativeToolTip": "WinForms\\FRM_AjouterProduit.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAASwEQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T13:30:53.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "FRM_AjouterCategorie.Designer.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_AjouterCategorie.Designer.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterCategorie.Designer.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_AjouterCategorie.Designer.cs",
+              "RelativeToolTip": "WinForms\\FRM_AjouterCategorie.Designer.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAmwGQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T12:09:22.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "F:\\projetStock\\StockLibrary\\Context\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "StockLibrary\\Context\\AppDbContextFactory.cs",
+              "ToolTip": "F:\\projetStock\\StockLibrary\\Context\\AppDbContextFactory.cs",
+              "RelativeToolTip": "StockLibrary\\Context\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T11:04:59.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "20250501101306_Init.cs",
+              "DocumentMoniker": "D:\\StockLibrary\\StockLibrary\\Migrations\\20250501101306_Init.cs",
+              "ToolTip": "D:\\StockLibrary\\StockLibrary\\Migrations\\20250501101306_Init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T10:13:07.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FRM_AjouterCategorie.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_AjouterCategorie.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_AjouterCategorie.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_AjouterCategorie.cs",
+              "RelativeToolTip": "WinForms\\FRM_AjouterCategorie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:31:20.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "CategorieRepository.cs",
+              "DocumentMoniker": "F:\\projetStock\\StockLibrary\\Repositories\\CategorieRepository.cs",
+              "RelativeDocumentMoniker": "StockLibrary\\Repositories\\CategorieRepository.cs",
+              "ToolTip": "F:\\projetStock\\StockLibrary\\Repositories\\CategorieRepository.cs",
+              "RelativeToolTip": "StockLibrary\\Repositories\\CategorieRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:17:20.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "FRM_Categorie.Designer.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\FRM_Categorie.Designer.cs",
+              "RelativeDocumentMoniker": "WinForms\\FRM_Categorie.Designer.cs",
+              "ToolTip": "F:\\projetStock\\WinForms\\FRM_Categorie.Designer.cs",
+              "RelativeToolTip": "WinForms\\FRM_Categorie.Designer.cs",
+              "ViewState": "AgIAAFwAAAAAAAAAAAASwHEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T09:05:04.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "20250501085420_Init.cs",
+              "DocumentMoniker": "D:\\StockLibrary\\StockLibrary\\Migrations\\20250501085420_Init.cs",
+              "ToolTip": "D:\\StockLibrary\\StockLibrary\\Migrations\\20250501085420_Init.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T08:54:20.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "F:\\projetStock\\StockLibrary\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "StockLibrary\\Context\\AppDbContext.cs",
+              "ToolTip": "F:\\projetStock\\StockLibrary\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "StockLibrary\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T08:39:37.363Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Produit.cs",
+              "DocumentMoniker": "F:\\projetStock\\StockLibrary\\Entities\\Produit.cs",
+              "RelativeDocumentMoniker": "StockLibrary\\Entities\\Produit.cs",
+              "ToolTip": "F:\\projetStock\\StockLibrary\\Entities\\Produit.cs",
+              "RelativeToolTip": "StockLibrary\\Entities\\Produit.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T08:35:12.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
               "Title": "Form1.cs [Conception]",
-              "DocumentMoniker": "D:\\StockLibrary\\WinForms\\Form1.cs",
+              "DocumentMoniker": "F:\\projetStock\\WinForms\\Form1.cs",
               "RelativeDocumentMoniker": "WinForms\\Form1.cs",
               "ToolTip": "D:\\StockLibrary\\WinForms\\Form1.cs [Conception]",
-              "RelativeToolTip": "WinForms\\Form1.cs [Conception]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T08:31:23.301Z",
-              "EditorCaption": " [Conception]"
+              "WhenOpened": "2025-05-01T08:31:23.301Z"
             }
           ]
         }
