@@ -15,4 +15,5 @@ namespace StockLibrary.Entities
         // Navigation
         public virtual ICollection<Produit> Produits { get; set; }
     }
+
 }
