@@ -1,5 +1,6 @@
 using System;
 using System.Windows.Forms;
+using Microsoft.EntityFrameworkCore;
 using StockLibrary;
 
 namespace WinForms
@@ -15,19 +16,18 @@ namespace WinForms
             {
                 using (var db = new AppDbContext())
                 {
-                    db.Database.EnsureDeleted();  // Supprime l'ancienne base
-                    db.Database.EnsureCreated();  // Crée une nouvelle base
-                    db.Seed();                    // Ajoute des données de test
+                   
+                    db.Seed();              // Ajouter les données de test
                 }
 
-                MessageBox.Show("? Base créée avec succès !");
+                MessageBox.Show("? Base de données initialisée avec succès !");
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"? Erreur lors de la création de la base :\n\n{ex.Message}");
+                MessageBox.Show($"? Erreur lors de l'initialisation de la base :\n\n{ex.Message}");
             }
 
-            Application.Run(new FRM_Commande());
+            Application.Run(new SignIn());
         }
     }
 }

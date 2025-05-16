@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRM_AjouterProduit));
             btnquiter = new Button();
             combocategorie = new ComboBox();
             label2 = new Label();
@@ -40,7 +41,6 @@
             txtnomproduit = new TextBox();
             label1 = new Label();
             pictureProduit = new PictureBox();
-            btnajouterclient = new Button();
             panel2 = new Panel();
             panel3 = new Panel();
             panel4 = new Panel();
@@ -63,6 +63,7 @@
             panel12 = new Panel();
             panel13 = new Panel();
             panel14 = new Panel();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureProduit).BeginInit();
             ((System.ComponentModel.ISupportInitialize)categorieBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)produitBindingSource).BeginInit();
@@ -178,23 +179,9 @@
             pictureProduit.TabIndex = 28;
             pictureProduit.TabStop = false;
             // 
-            // btnajouterclient
-            // 
-            btnajouterclient.BackColor = Color.FromArgb(30, 28, 38);
-            btnajouterclient.FlatAppearance.BorderSize = 0;
-            btnajouterclient.FlatStyle = FlatStyle.Flat;
-            btnajouterclient.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Italic, GraphicsUnit.Point, 0);
-            btnajouterclient.ForeColor = SystemColors.ControlLightLight;
-            btnajouterclient.Location = new Point(211, 12);
-            btnajouterclient.Name = "btnajouterclient";
-            btnajouterclient.Size = new Size(324, 54);
-            btnajouterclient.TabIndex = 27;
-            btnajouterclient.Text = "Ajouter Produit";
-            btnajouterclient.UseVisualStyleBackColor = false;
-            // 
             // panel2
             // 
-            panel2.BackColor = Color.FromArgb(178, 8, 55);
+            panel2.BackColor = Color.White;
             panel2.Dock = DockStyle.Left;
             panel2.Location = new Point(0, 3);
             panel2.Name = "panel2";
@@ -203,7 +190,7 @@
             // 
             // panel3
             // 
-            panel3.BackColor = Color.FromArgb(178, 8, 55);
+            panel3.BackColor = Color.WhiteSmoke;
             panel3.Dock = DockStyle.Right;
             panel3.Location = new Point(857, 3);
             panel3.Name = "panel3";
@@ -212,7 +199,7 @@
             // 
             // panel4
             // 
-            panel4.BackColor = Color.FromArgb(178, 8, 55);
+            panel4.BackColor = Color.WhiteSmoke;
             panel4.Dock = DockStyle.Bottom;
             panel4.Location = new Point(0, 476);
             panel4.Name = "panel4";
@@ -221,7 +208,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(178, 8, 55);
+            panel1.BackColor = Color.White;
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
@@ -256,7 +243,7 @@
             // 
             // buttonEnregistrer
             // 
-            buttonEnregistrer.BackColor = Color.FromArgb(178, 8, 55);
+            buttonEnregistrer.BackColor = Color.DarkGray;
             buttonEnregistrer.FlatAppearance.BorderSize = 0;
             buttonEnregistrer.FlatStyle = FlatStyle.Flat;
             buttonEnregistrer.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -279,7 +266,7 @@
             // 
             // textPrix
             // 
-            textPrix.BackColor = Color.FromArgb(30, 28, 38);
+            textPrix.BackColor = Color.DarkCyan;
             textPrix.BorderStyle = BorderStyle.None;
             textPrix.DataBindings.Add(new Binding("Text", produitBindingSource, "Prix", true));
             textPrix.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -304,7 +291,7 @@
             // 
             // textQuantite
             // 
-            textQuantite.BackColor = Color.FromArgb(30, 28, 38);
+            textQuantite.BackColor = Color.DarkCyan;
             textQuantite.BorderStyle = BorderStyle.None;
             textQuantite.DataBindings.Add(new Binding("Text", produitBindingSource, "Quantite", true));
             textQuantite.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -325,7 +312,7 @@
             // 
             // textNom
             // 
-            textNom.BackColor = Color.FromArgb(30, 28, 38);
+            textNom.BackColor = Color.DarkCyan;
             textNom.BorderStyle = BorderStyle.None;
             textNom.DataBindings.Add(new Binding("Text", produitBindingSource, "Nom", true));
             textNom.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -356,16 +343,16 @@
             picture.Size = new Size(221, 148);
             picture.TabIndex = 49;
             picture.TabStop = false;
-            picture.Click += pictureBox_Click;
+            picture.Click += picture_Click;
             // 
             // button4
             // 
-            button4.BackColor = Color.FromArgb(30, 28, 38);
+            button4.BackColor = Color.DarkCyan;
             button4.FlatAppearance.BorderSize = 0;
             button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Italic, GraphicsUnit.Point, 0);
             button4.ForeColor = SystemColors.ControlLightLight;
-            button4.Location = new Point(211, 12);
+            button4.Location = new Point(262, 31);
             button4.Name = "button4";
             button4.Size = new Size(324, 54);
             button4.TabIndex = 48;
@@ -374,7 +361,7 @@
             // 
             // panel11
             // 
-            panel11.BackColor = Color.FromArgb(178, 8, 55);
+            panel11.BackColor = Color.White;
             panel11.Dock = DockStyle.Left;
             panel11.Location = new Point(3, 6);
             panel11.Name = "panel11";
@@ -383,7 +370,7 @@
             // 
             // panel12
             // 
-            panel12.BackColor = Color.FromArgb(178, 8, 55);
+            panel12.BackColor = Color.White;
             panel12.Dock = DockStyle.Right;
             panel12.Location = new Point(854, 6);
             panel12.Name = "panel12";
@@ -392,7 +379,7 @@
             // 
             // panel13
             // 
-            panel13.BackColor = Color.FromArgb(178, 8, 55);
+            panel13.BackColor = Color.White;
             panel13.Dock = DockStyle.Bottom;
             panel13.Location = new Point(3, 473);
             panel13.Name = "panel13";
@@ -401,19 +388,33 @@
             // 
             // panel14
             // 
-            panel14.BackColor = Color.FromArgb(178, 8, 55);
+            panel14.BackColor = Color.White;
             panel14.Dock = DockStyle.Top;
             panel14.Location = new Point(3, 3);
             panel14.Name = "panel14";
             panel14.Size = new Size(854, 3);
             panel14.TabIndex = 44;
             // 
+            // button2
+            // 
+            button2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Image = (Image)resources.GetObject("button2.Image");
+            button2.Location = new Point(801, 6);
+            button2.Name = "button2";
+            button2.Size = new Size(50, 50);
+            button2.TabIndex = 83;
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click_1;
+            // 
             // FRM_AjouterProduit
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(30, 28, 38);
+            BackColor = Color.DarkCyan;
             ClientSize = new Size(860, 479);
+            Controls.Add(button2);
             Controls.Add(comboBoxCategorie);
             Controls.Add(label3);
             Controls.Add(buttonEnregistrer);
@@ -441,7 +442,6 @@
             Controls.Add(txtnomproduit);
             Controls.Add(label1);
             Controls.Add(pictureProduit);
-            Controls.Add(btnajouterclient);
             Controls.Add(panel2);
             Controls.Add(panel3);
             Controls.Add(panel4);
@@ -471,7 +471,6 @@
         private TextBox txtnomproduit;
         private Label label1;
         private PictureBox pictureProduit;
-        private Button btnajouterclient;
         private Panel panel2;
         private Panel panel3;
         private Panel panel4;
@@ -494,5 +493,6 @@
         private Panel panel14;
         private BindingSource categorieBindingSource;
         private BindingSource produitBindingSource;
+        private Button button2;
     }
 }

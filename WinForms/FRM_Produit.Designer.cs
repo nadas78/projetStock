@@ -29,8 +29,10 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
-            button2 = new Button();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRM_Produit));
             dvglProduit = new DataGridView();
             idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             nomDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
@@ -50,34 +52,24 @@
             ((System.ComponentModel.ISupportInitialize)produitBindingSource).BeginInit();
             SuspendLayout();
             // 
-            // button2
-            // 
-            button2.BackColor = Color.FromArgb(30, 28, 38);
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.ForeColor = SystemColors.ControlLightLight;
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(27, 564);
-            button2.Name = "button2";
-            button2.Size = new Size(320, 53);
-            button2.TabIndex = 31;
-            button2.Text = "   Sauvegarder dans Excel";
-            button2.UseVisualStyleBackColor = false;
-            // 
             // dvglProduit
             // 
             dvglProduit.AllowUserToAddRows = false;
+            dataGridViewCellStyle1.BackColor = Color.DarkCyan;
+            dataGridViewCellStyle1.ForeColor = Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = Color.White;
+            dataGridViewCellStyle1.SelectionForeColor = Color.Black;
+            dvglProduit.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dvglProduit.AutoGenerateColumns = false;
             dvglProduit.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dvglProduit.BackgroundColor = SystemColors.Control;
             dvglProduit.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = Color.FromArgb(30, 28, 38);
+            dataGridViewCellStyle2.BackColor = Color.DarkCyan;
             dataGridViewCellStyle2.Font = new Font("Microsoft Sans Serif", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle2.ForeColor = SystemColors.Window;
-            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.ForeColor = Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = Color.White;
+            dataGridViewCellStyle2.SelectionForeColor = Color.Black;
             dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
             dvglProduit.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dvglProduit.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -86,13 +78,20 @@
             dvglProduit.EnableHeadersVisualStyles = false;
             dvglProduit.Location = new Point(27, 165);
             dvglProduit.Name = "dvglProduit";
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = SystemColors.Control;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle3.SelectionBackColor = Color.White;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
+            dvglProduit.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             dvglProduit.RowHeadersVisible = false;
             dvglProduit.RowHeadersWidth = 51;
             dvglProduit.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             dvglProduit.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dvglProduit.Size = new Size(1081, 383);
             dvglProduit.TabIndex = 29;
-            dvglProduit.CellContentClick += dvglProduit_CellContentClick;
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -139,8 +138,8 @@
             // 
             // panel3
             // 
-            panel3.BackColor = Color.FromArgb(30, 28, 38);
-            panel3.Location = new Point(590, 137);
+            panel3.BackColor = Color.DarkSlateGray;
+            panel3.Location = new Point(343, 141);
             panel3.Name = "panel3";
             panel3.Size = new Size(526, 3);
             panel3.TabIndex = 28;
@@ -156,11 +155,12 @@
             // 
             // btnmodifierclient
             // 
-            btnmodifierclient.BackColor = Color.FromArgb(30, 28, 38);
+            btnmodifierclient.BackColor = Color.DarkCyan;
             btnmodifierclient.FlatAppearance.BorderSize = 0;
             btnmodifierclient.FlatStyle = FlatStyle.Flat;
             btnmodifierclient.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnmodifierclient.ForeColor = SystemColors.ControlLightLight;
+            btnmodifierclient.Image = (Image)resources.GetObject("btnmodifierclient.Image");
             btnmodifierclient.ImageAlign = ContentAlignment.MiddleLeft;
             btnmodifierclient.Location = new Point(383, 10);
             btnmodifierclient.Name = "btnmodifierclient";
@@ -172,11 +172,12 @@
             // 
             // btnsupprimerclient
             // 
-            btnsupprimerclient.BackColor = Color.FromArgb(30, 28, 38);
+            btnsupprimerclient.BackColor = Color.DarkCyan;
             btnsupprimerclient.FlatAppearance.BorderSize = 0;
             btnsupprimerclient.FlatStyle = FlatStyle.Flat;
             btnsupprimerclient.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnsupprimerclient.ForeColor = SystemColors.ControlLightLight;
+            btnsupprimerclient.Image = (Image)resources.GetObject("btnsupprimerclient.Image");
             btnsupprimerclient.ImageAlign = ContentAlignment.MiddleLeft;
             btnsupprimerclient.Location = new Point(746, 10);
             btnsupprimerclient.Name = "btnsupprimerclient";
@@ -188,11 +189,12 @@
             // 
             // btnajouterclient
             // 
-            btnajouterclient.BackColor = Color.FromArgb(30, 28, 38);
+            btnajouterclient.BackColor = Color.DarkCyan;
             btnajouterclient.FlatAppearance.BorderSize = 0;
             btnajouterclient.FlatStyle = FlatStyle.Flat;
             btnajouterclient.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnajouterclient.ForeColor = SystemColors.ControlLightLight;
+            btnajouterclient.Image = (Image)resources.GetObject("btnajouterclient.Image");
             btnajouterclient.ImageAlign = ContentAlignment.MiddleLeft;
             btnajouterclient.Location = new Point(44, 12);
             btnajouterclient.Name = "btnajouterclient";
@@ -208,7 +210,7 @@
             textBox1.BorderStyle = BorderStyle.None;
             textBox1.Font = new Font("Tahoma", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             textBox1.ForeColor = Color.DimGray;
-            textBox1.Location = new Point(664, 98);
+            textBox1.Location = new Point(417, 102);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.PlaceholderText = "Recherche";
@@ -222,7 +224,6 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1135, 629);
-            Controls.Add(button2);
             Controls.Add(dvglProduit);
             Controls.Add(panel3);
             Controls.Add(panel1);
@@ -241,7 +242,6 @@
         }
 
         #endregion
-        private Button button2;
         private DataGridView dvglProduit;
         private Panel panel3;
         private Panel panel1;

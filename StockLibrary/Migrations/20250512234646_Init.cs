@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace StockLibrary.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class Init : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -72,16 +72,43 @@ namespace StockLibrary.Migrations
                     Id = table.Column<int>(type: "INTEGER", nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
                     ClientId = table.Column<int>(type: "INTEGER", nullable: false),
-                    ProduitId = table.Column<int>(type: "INTEGER", nullable: false),
-                    QuantiteCommande = table.Column<int>(type: "INTEGER", nullable: false),
-                    Remise = table.Column<decimal>(type: "TEXT", nullable: false),
                     DateCommande = table.Column<DateTime>(type: "TEXT", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Commandes", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Commandes_Produits_ProduitId",
+                        name: "FK_Commandes_Clients_ClientId",
+                        column: x => x.ClientId,
+                        principalTable: "Clients",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "LignesCommande",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    CommandeId = table.Column<int>(type: "INTEGER", nullable: false),
+                    ProduitId = table.Column<int>(type: "INTEGER", nullable: false),
+                    Quantite = table.Column<int>(type: "INTEGER", nullable: false),
+                    Remise = table.Column<decimal>(type: "TEXT", nullable: false),
+                    Prix = table.Column<decimal>(type: "TEXT", nullable: false),
+                    TotalCalculé = table.Column<decimal>(type: "TEXT", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_LignesCommande", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_LignesCommande_Commandes_CommandeId",
+                        column: x => x.CommandeId,
+                        principalTable: "Commandes",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_LignesCommande_Produits_ProduitId",
                         column: x => x.ProduitId,
                         principalTable: "Produits",
                         principalColumn: "Id",
@@ -89,8 +116,18 @@ namespace StockLibrary.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Commandes_ProduitId",
+                name: "IX_Commandes_ClientId",
                 table: "Commandes",
+                column: "ClientId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_LignesCommande_CommandeId",
+                table: "LignesCommande",
+                column: "CommandeId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_LignesCommande_ProduitId",
+                table: "LignesCommande",
                 column: "ProduitId");
 
             migrationBuilder.CreateIndex(
@@ -103,13 +140,16 @@ namespace StockLibrary.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Clients");
+                name: "LignesCommande");
 
             migrationBuilder.DropTable(
                 name: "Commandes");
 
             migrationBuilder.DropTable(
                 name: "Produits");
+
+            migrationBuilder.DropTable(
+                name: "Clients");
 
             migrationBuilder.DropTable(
                 name: "Categories");

@@ -17,26 +17,33 @@ namespace WinForms
 
         private void FRM_Categorie_Load(object sender, EventArgs e)
         {
-            using var ctx = new AppDbContext();
-            ctx.Database.Migrate();   // Crée les tables manquantes si nécessaire
-            ctx.Seed();               // Si tu as une méthode pour pré-remplir la base
-            ChargerCategories();
+            ChargerCategories(); // La base est déjà migrée dans Program.cs
         }
 
         private void ChargerCategories()
         {
-            using var context = new AppDbContext();
-            var repo = new CategorieRepository(context);
-            dvgcategorie.DataSource = repo.GetAll().ToList();  // Remplir le DataGridView
+            try
+            {
+                using var context = new AppDbContext();
+                var repo = new CategorieRepository(context);
+                var categories = repo.GetAll().ToList();
+
+                dvgcategorie.AutoGenerateColumns = true; // Active l’auto-génération des colonnes
+                dvgcategorie.DataSource = categories;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("❌ Erreur lors du chargement des catégories :\n\n" + ex.Message);
+            }
         }
 
         private void btnajoutercategorie_Click_1(object sender, EventArgs e)
         {
-            var frm = new FRM_AjouterCategorie();  // Ouvrir le formulaire d'ajout
+            var frm = new FRM_AjouterCategorie();
             if (frm.ShowDialog() == DialogResult.OK)
             {
-                ChargerCategories();  // Recharger les catégories si l'ajout est réussi
-            }
+                ChargerCategories();
+            }                                                                           
         }
 
         private void BtnModifierCategorie_Click(object sender, EventArgs e)
@@ -54,10 +61,9 @@ namespace WinForms
                 return;
             }
 
-            var frm = new FRM_AjouterCategorie(selected);  // Passer la catégorie pour modification
+            var frm = new FRM_AjouterCategorie(selected);
             if (frm.ShowDialog() == DialogResult.OK)
             {
-                // Si l'utilisateur ferme le formulaire avec succès, recharger les catégories
                 ChargerCategories();
             }
         }
@@ -78,39 +84,49 @@ namespace WinForms
             {
                 using var context = new AppDbContext();
                 var repo = new CategorieRepository(context);
-                repo.Delete(selected);  // Supprimer la catégorie de la base
-                ChargerCategories();    // Recharger les catégories
+                repo.Delete(selected);
+                ChargerCategories();
             }
         }
 
         private void rechercheCategory_TextChanged(object sender, EventArgs e)
         {
-            string searchTerm = rechercheCategory.Text.Trim().ToLower(); // Récupérer le texte saisi et le convertir en minuscule pour éviter la casse
+            string searchTerm = rechercheCategory.Text.Trim().ToLower();
 
             if (string.IsNullOrEmpty(searchTerm))
             {
-                // Si le champ de recherche est vide, on recharge toutes les catégories
                 ChargerCategories();
             }
             else
             {
-                // Sinon, on filtre les catégories en fonction du texte saisi
-                using (var context = new AppDbContext())
-                {
-                    var repo = new CategorieRepository(context);
-                    var categoriesFiltered = repo.GetAll()
-                        .Where(c => c.Nom.ToLower().Contains(searchTerm)) // Filtrer les catégories par nom
-                        .ToList();
+                using var context = new AppDbContext();
+                var repo = new CategorieRepository(context);
+                var filtered = repo.GetAll()
+                    .Where(c => c.Nom.ToLower().Contains(searchTerm))
+                    .ToList();
 
-                    // Mettre à jour le DataGridView avec les résultats filtrés
-                    dvgcategorie.DataSource = categoriesFiltered;
-                }
+                dvgcategorie.AutoGenerateColumns = true;
+                dvgcategorie.DataSource = filtered;
             }
         }
 
         private void dvgcategorie_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            // Tu peux implémenter des actions ici si tu as des boutons dans les cellules
+        }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void bTNAjouter_Click(object sender, EventArgs e)
+        {
+            var frm = new FRM_AjouterCategorie();
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                ChargerCategories();
+            }
         }
     }
 }

@@ -38,12 +38,13 @@
             btnquiter = new Button();
             panel4 = new Panel();
             btnEnregistercategorie = new Button();
+            button2 = new Button();
             panel3.SuspendLayout();
             SuspendLayout();
             // 
             // panel3
             // 
-            panel3.BackColor = Color.FromArgb(178, 8, 55);
+            panel3.BackColor = Color.White;
             panel3.Controls.Add(button1);
             panel3.Dock = DockStyle.Left;
             panel3.Location = new Point(0, 2);
@@ -62,7 +63,7 @@
             // 
             // panel2
             // 
-            panel2.BackColor = Color.FromArgb(178, 8, 55);
+            panel2.BackColor = Color.White;
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
@@ -71,7 +72,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(178, 8, 55);
+            panel1.BackColor = Color.White;
             panel1.Dock = DockStyle.Right;
             panel1.Location = new Point(387, 0);
             panel1.Name = "panel1";
@@ -88,7 +89,7 @@
             // 
             // NomCategorie
             // 
-            NomCategorie.BackColor = Color.FromArgb(30, 28, 38);
+            NomCategorie.BackColor = Color.DarkCyan;
             NomCategorie.BorderStyle = BorderStyle.None;
             NomCategorie.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             NomCategorie.ForeColor = Color.FromArgb(224, 224, 224);
@@ -104,11 +105,12 @@
             label1.AutoSize = true;
             label1.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Italic, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(64, 52);
+            label1.Location = new Point(128, 48);
             label1.Name = "label1";
-            label1.Size = new Size(247, 36);
+            label1.Size = new Size(143, 36);
             label1.TabIndex = 30;
-            label1.Text = "Ajouter Catégorie";
+            label1.Text = "Catégorie";
+            label1.Click += label1_Click;
             // 
             // btnquiter
             // 
@@ -122,7 +124,7 @@
             // 
             // panel4
             // 
-            panel4.BackColor = Color.FromArgb(178, 8, 55);
+            panel4.BackColor = Color.White;
             panel4.Dock = DockStyle.Bottom;
             panel4.Location = new Point(0, 334);
             panel4.Name = "panel4";
@@ -131,7 +133,7 @@
             // 
             // btnEnregistercategorie
             // 
-            btnEnregistercategorie.BackColor = Color.Red;
+            btnEnregistercategorie.BackColor = Color.LightSlateGray;
             btnEnregistercategorie.FlatAppearance.BorderSize = 0;
             btnEnregistercategorie.FlatStyle = FlatStyle.Flat;
             btnEnregistercategorie.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -145,12 +147,26 @@
             btnEnregistercategorie.UseVisualStyleBackColor = false;
             btnEnregistercategorie.Click += EnregistreCategorie_Click;
             // 
+            // button2
+            // 
+            button2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Image = Properties.Resources.icons8_annuler_32;
+            button2.Location = new Point(349, 3);
+            button2.Name = "button2";
+            button2.Size = new Size(37, 27);
+            button2.TabIndex = 35;
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // FRM_AjouterCategorie
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(30, 28, 38);
+            BackColor = Color.DarkCyan;
             ClientSize = new Size(389, 336);
+            Controls.Add(button2);
             Controls.Add(btnEnregistercategorie);
             Controls.Add(panel3);
             Controls.Add(panel2);
@@ -175,13 +191,12 @@
         private Button button1;
         private Panel panel2;
         private Panel panel1;
-        private Button button2;
-        private PictureBox pictureBox1;
         private Panel panel5;
         private TextBox NomCategorie;
         private Label label1;
         private Button btnquiter;
         private Panel panel4;
         private Button btnEnregistercategorie;
+        private Button button2;
     }
 }

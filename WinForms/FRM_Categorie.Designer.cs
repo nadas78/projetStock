@@ -29,16 +29,16 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             dvgcategorie = new DataGridView();
             idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             nomDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             categorieBindingSource = new BindingSource(components);
             panel3 = new Panel();
             rechercheCategory = new TextBox();
-            btnajoutercategorie = new Button();
             BtnModifierCategorie = new Button();
             BtnSupprimerCategorie = new Button();
+            bTNAjouter = new Button();
             ((System.ComponentModel.ISupportInitialize)dvgcategorie).BeginInit();
             ((System.ComponentModel.ISupportInitialize)categorieBindingSource).BeginInit();
             SuspendLayout();
@@ -50,14 +50,14 @@
             dvgcategorie.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dvgcategorie.BackgroundColor = SystemColors.Control;
             dvgcategorie.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = Color.FromArgb(30, 28, 38);
-            dataGridViewCellStyle1.Font = new Font("Microsoft Sans Serif", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle1.ForeColor = SystemColors.Window;
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            dvgcategorie.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.DarkCyan;
+            dataGridViewCellStyle2.Font = new Font("Microsoft Sans Serif", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle2.ForeColor = SystemColors.Window;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            dvgcategorie.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             dvgcategorie.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dvgcategorie.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, nomDataGridViewTextBoxColumn });
             dvgcategorie.DataSource = categorieBindingSource;
@@ -68,7 +68,7 @@
             dvgcategorie.RowHeadersWidth = 51;
             dvgcategorie.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             dvgcategorie.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dvgcategorie.Size = new Size(1053, 346);
+            dvgcategorie.Size = new Size(1053, 343);
             dvgcategorie.TabIndex = 21;
             dvgcategorie.CellContentClick += dvgcategorie_CellContentClick;
             // 
@@ -92,10 +92,10 @@
             // 
             // panel3
             // 
-            panel3.BackColor = Color.FromArgb(30, 28, 38);
+            panel3.BackColor = Color.DarkSlateGray;
             panel3.Location = new Point(349, 65);
             panel3.Name = "panel3";
-            panel3.Size = new Size(334, 3);
+            panel3.Size = new Size(334, 10);
             panel3.TabIndex = 20;
             // 
             // rechercheCategory
@@ -108,38 +108,22 @@
             rechercheCategory.Multiline = true;
             rechercheCategory.Name = "rechercheCategory";
             rechercheCategory.PlaceholderText = "Recherche";
-            rechercheCategory.Size = new Size(334, 33);
+            rechercheCategory.Size = new Size(334, 34);
             rechercheCategory.TabIndex = 19;
             rechercheCategory.TextAlign = HorizontalAlignment.Center;
             rechercheCategory.TextChanged += rechercheCategory_TextChanged;
             // 
-            // btnajoutercategorie
-            // 
-            btnajoutercategorie.BackColor = Color.FromArgb(30, 28, 38);
-            btnajoutercategorie.FlatAppearance.BorderSize = 0;
-            btnajoutercategorie.FlatStyle = FlatStyle.Flat;
-            btnajoutercategorie.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnajoutercategorie.ForeColor = SystemColors.ControlLightLight;
-            btnajoutercategorie.ImageAlign = ContentAlignment.MiddleLeft;
-            btnajoutercategorie.Location = new Point(41, 485);
-            btnajoutercategorie.Name = "btnajoutercategorie";
-            btnajoutercategorie.Size = new Size(290, 53);
-            btnajoutercategorie.TabIndex = 18;
-            btnajoutercategorie.Text = "Ajouter";
-            btnajoutercategorie.UseVisualStyleBackColor = false;
-            btnajoutercategorie.Click += btnajoutercategorie_Click_1;
-            // 
             // BtnModifierCategorie
             // 
-            BtnModifierCategorie.BackColor = Color.FromArgb(30, 28, 38);
+            BtnModifierCategorie.BackColor = Color.DarkCyan;
             BtnModifierCategorie.FlatAppearance.BorderSize = 0;
             BtnModifierCategorie.FlatStyle = FlatStyle.Flat;
             BtnModifierCategorie.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             BtnModifierCategorie.ForeColor = SystemColors.ControlLightLight;
             BtnModifierCategorie.ImageAlign = ContentAlignment.MiddleLeft;
-            BtnModifierCategorie.Location = new Point(409, 485);
+            BtnModifierCategorie.Location = new Point(373, 485);
             BtnModifierCategorie.Name = "BtnModifierCategorie";
-            BtnModifierCategorie.Size = new Size(290, 53);
+            BtnModifierCategorie.Size = new Size(290, 54);
             BtnModifierCategorie.TabIndex = 22;
             BtnModifierCategorie.Text = "Modifier";
             BtnModifierCategorie.UseVisualStyleBackColor = false;
@@ -147,7 +131,7 @@
             // 
             // BtnSupprimerCategorie
             // 
-            BtnSupprimerCategorie.BackColor = Color.FromArgb(30, 28, 38);
+            BtnSupprimerCategorie.BackColor = Color.DarkCyan;
             BtnSupprimerCategorie.FlatAppearance.BorderSize = 0;
             BtnSupprimerCategorie.FlatStyle = FlatStyle.Flat;
             BtnSupprimerCategorie.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -155,23 +139,39 @@
             BtnSupprimerCategorie.ImageAlign = ContentAlignment.MiddleLeft;
             BtnSupprimerCategorie.Location = new Point(742, 485);
             BtnSupprimerCategorie.Name = "BtnSupprimerCategorie";
-            BtnSupprimerCategorie.Size = new Size(290, 53);
+            BtnSupprimerCategorie.Size = new Size(290, 54);
             BtnSupprimerCategorie.TabIndex = 23;
             BtnSupprimerCategorie.Text = "Supprimer";
             BtnSupprimerCategorie.UseVisualStyleBackColor = false;
             BtnSupprimerCategorie.Click += BtnSupprimerCategorie_Click_1;
             // 
+            // bTNAjouter
+            // 
+            bTNAjouter.BackColor = Color.DarkCyan;
+            bTNAjouter.FlatAppearance.BorderSize = 0;
+            bTNAjouter.FlatStyle = FlatStyle.Flat;
+            bTNAjouter.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            bTNAjouter.ForeColor = SystemColors.ControlLightLight;
+            bTNAjouter.ImageAlign = ContentAlignment.MiddleLeft;
+            bTNAjouter.Location = new Point(31, 485);
+            bTNAjouter.Name = "bTNAjouter";
+            bTNAjouter.Size = new Size(290, 54);
+            bTNAjouter.TabIndex = 24;
+            bTNAjouter.Text = "Ajouter";
+            bTNAjouter.UseVisualStyleBackColor = false;
+            bTNAjouter.Click += bTNAjouter_Click;
+            // 
             // FRM_Categorie
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1055, 609);
+            ClientSize = new Size(1081, 605);
+            Controls.Add(bTNAjouter);
             Controls.Add(BtnSupprimerCategorie);
             Controls.Add(BtnModifierCategorie);
             Controls.Add(dvgcategorie);
             Controls.Add(panel3);
             Controls.Add(rechercheCategory);
-            Controls.Add(btnajoutercategorie);
             FormBorderStyle = FormBorderStyle.None;
             Name = "FRM_Categorie";
             Text = "FRM_Categorie";
@@ -193,5 +193,6 @@
         private Button btnajoutercategorie;
         private Button BtnModifierCategorie;
         private Button BtnSupprimerCategorie;
+        private Button bTNAjouter;
     }
 }

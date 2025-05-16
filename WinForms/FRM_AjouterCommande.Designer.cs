@@ -29,7 +29,11 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRM_AjouterCommande));
             label6 = new Label();
             dataGridView1 = new DataGridView();
             idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
@@ -89,6 +93,7 @@
             panel5 = new Panel();
             panel6 = new Panel();
             panel11 = new Panel();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)produitBindingSource).BeginInit();
             groupBox1.SuspendLayout();
@@ -107,27 +112,46 @@
             label6.Size = new Size(211, 30);
             label6.TabIndex = 69;
             label6.Text = "Date Commande:";
+            label6.Click += label6_Click;
             // 
             // dataGridView1
             // 
             dataGridView1.AllowUserToDeleteRows = false;
             dataGridView1.AutoGenerateColumns = false;
             dataGridView1.BackgroundColor = Color.White;
-            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = SystemColors.Control;
-            dataGridViewCellStyle3.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            dataGridViewCellStyle3.ForeColor = Color.Black;
-            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
-            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = Color.DarkCyan;
+            dataGridViewCellStyle1.Font = new Font("Britannic Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.ForeColor = Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = Color.White;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridView1.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, nomDataGridViewTextBoxColumn, quantiteDataGridViewTextBoxColumn, prixDataGridViewTextBoxColumn, categorieIdDataGridViewTextBoxColumn, categorieDataGridViewTextBoxColumn, imageDataGridViewImageColumn });
             dataGridView1.DataSource = produitBindingSource;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.DarkCyan;
+            dataGridViewCellStyle2.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle2.ForeColor = Color.Teal;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
+            dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
             dataGridView1.Location = new Point(0, 86);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.ReadOnly = true;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = Color.White;
+            dataGridViewCellStyle3.Font = new Font("Britannic Bold", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle3.ForeColor = SystemColors.InactiveCaptionText;
+            dataGridViewCellStyle3.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.True;
+            dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
             dataGridView1.RowHeadersWidth = 51;
+            dataGridViewCellStyle4.BackColor = Color.White;
+            dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle4;
             dataGridView1.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dataGridView1.Size = new Size(803, 558);
             dataGridView1.TabIndex = 25;
@@ -216,7 +240,7 @@
             // panel3
             // 
             panel3.BackColor = Color.Black;
-            panel3.Location = new Point(6, 62);
+            panel3.Location = new Point(138, 60);
             panel3.Name = "panel3";
             panel3.Size = new Size(313, 3);
             panel3.TabIndex = 24;
@@ -227,7 +251,7 @@
             textBox1.BorderStyle = BorderStyle.None;
             textBox1.Font = new Font("Tahoma", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             textBox1.ForeColor = Color.Teal;
-            textBox1.Location = new Point(27, 30);
+            textBox1.Location = new Point(45, 35);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(472, 33);
@@ -565,7 +589,6 @@
             label13.Size = new Size(34, 24);
             label13.TabIndex = 88;
             label13.Text = "%";
-            
             // 
             // label14
             // 
@@ -618,7 +641,7 @@
             // 
             // panel8
             // 
-            panel8.BackColor = Color.FromArgb(178, 8, 55);
+            panel8.BackColor = Color.DarkCyan;
             panel8.Dock = DockStyle.Left;
             panel8.Location = new Point(3, 6);
             panel8.Name = "panel8";
@@ -627,7 +650,7 @@
             // 
             // panel9
             // 
-            panel9.BackColor = Color.FromArgb(178, 8, 55);
+            panel9.BackColor = Color.DarkCyan;
             panel9.Dock = DockStyle.Right;
             panel9.Location = new Point(1622, 6);
             panel9.Name = "panel9";
@@ -670,7 +693,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(178, 8, 55);
+            panel1.BackColor = Color.DarkCyan;
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 6);
             panel1.Name = "panel1";
@@ -679,7 +702,7 @@
             // 
             // panel4
             // 
-            panel4.BackColor = Color.FromArgb(178, 8, 55);
+            panel4.BackColor = Color.DarkCyan;
             panel4.Dock = DockStyle.Right;
             panel4.Location = new Point(1625, 6);
             panel4.Name = "panel4";
@@ -697,7 +720,7 @@
             // 
             // panel6
             // 
-            panel6.BackColor = Color.FromArgb(178, 8, 55);
+            panel6.BackColor = Color.DarkCyan;
             panel6.Dock = DockStyle.Top;
             panel6.Location = new Point(0, 3);
             panel6.Name = "panel6";
@@ -706,18 +729,32 @@
             // 
             // panel11
             // 
-            panel11.BackColor = Color.FromArgb(178, 8, 55);
+            panel11.BackColor = Color.DarkCyan;
             panel11.Dock = DockStyle.Top;
             panel11.Location = new Point(0, 0);
             panel11.Name = "panel11";
             panel11.Size = new Size(1628, 3);
             panel11.TabIndex = 104;
             // 
+            // button2
+            // 
+            button2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Image = (Image)resources.GetObject("button2.Image");
+            button2.Location = new Point(1572, 2);
+            button2.Name = "button2";
+            button2.Size = new Size(50, 50);
+            button2.TabIndex = 109;
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click_1;
+            // 
             // FRM_AjouterCommande
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1628, 830);
+            Controls.Add(button2);
             Controls.Add(groupBox3);
             Controls.Add(panel8);
             Controls.Add(panel9);
@@ -738,7 +775,7 @@
             FormBorderStyle = FormBorderStyle.None;
             Name = "FRM_AjouterCommande";
             Text = "FRM_AjouterCommande";
-            Load += FRM_AjouterCommande_Load_1;
+            Load += FRM_AjouterCommande_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ((System.ComponentModel.ISupportInitialize)produitBindingSource).EndInit();
             groupBox1.ResumeLayout(false);
@@ -814,5 +851,6 @@
         private DataGridViewTextBoxColumn categorieDataGridViewTextBoxColumn;
         private DataGridViewImageColumn imageDataGridViewImageColumn;
         private BindingSource produitBindingSource;
+        private Button button2;
     }
 }

@@ -52,17 +52,7 @@ namespace WinForms
             }
         }
 
-        private void pictureBox_Click(object sender, EventArgs e)
-        {
-            using (OpenFileDialog ofd = new OpenFileDialog { Filter = "Images|*.jpg;*.jpeg;*.png;*.bmp" })
-            {
-                if (ofd.ShowDialog() == DialogResult.OK)
-                {
-                    _imageBytes = File.ReadAllBytes(ofd.FileName);
-                    picture.Image = Image.FromFile(ofd.FileName);
-                }
-            }
-        }
+       
 
         private void buttonEnregistrer_Click(object sender, EventArgs e)
         {
@@ -115,6 +105,25 @@ namespace WinForms
 
             MessageBox.Show("Produit enregistré avec succès !");
             this.DialogResult = DialogResult.OK;
+            this.Close();
+        }
+
+        
+        private void picture_Click(object sender, EventArgs e)
+        {
+
+            using (OpenFileDialog ofd = new OpenFileDialog { Filter = "Images|*.jpg;*.jpeg;*.png;*.bmp" })
+            {
+                if (ofd.ShowDialog() == DialogResult.OK)
+                {
+                    _imageBytes = File.ReadAllBytes(ofd.FileName);
+                    picture.Image = Image.FromFile(ofd.FileName);
+                }
+            }
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
             this.Close();
         }
     }

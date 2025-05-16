@@ -1,54 +1,32 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace StockLibrary.Entities
 {
     public class Commande
     {
-      
-        
-            public int Id { get; set; }
+        public int Id { get; set; }
 
-            // Identifiant du client sélectionné
-            public int ClientId { get; set; }
+        // Identifiant du client
+        public int ClientId { get; set; }
+        public virtual Client Client { get; set; }
 
-            // Produit sélectionné
-            public int ProduitId { get; set; }
-            public virtual Produit Produit { get; set; }
+        // Date de la commande
+        public DateTime DateCommande { get; set; }
 
-            // Quantité que le client veut commander
-            public int QuantiteCommande { get; set; }
+        // Liste des lignes de commande
+        public virtual ICollection<LigneCommande> LignesCommande { get; set; }
 
-            // Remise appliquée en valeur (ex: 10dh de réduction)
-            public decimal Remise { get; set; }
-
-            // Date de commande (affichée tout en haut)
-            public DateTime DateCommande { get; set; }
-
-            // Prix total automatiquement calculé
-            public decimal Total
+        // Total de la commande
+        public decimal Total
+        {
+            get
             {
-                get
-                {
-                    if (Produit != null)
-                    {
-                        decimal montant = Produit.Prix * QuantiteCommande;
-                        return montant - Remise;
-                    }
+                if (LignesCommande == null)
                     return 0;
-                }
-            }
 
-            // Méthode pour vérifier que la quantité commandée ne dépasse pas le stock
-            public bool EstValide()
-            {
-                return Produit != null && QuantiteCommande <= Produit.Quantite;
+                return LignesCommande.Sum(l => l.Total);
             }
         }
     }
-
-
-
+}

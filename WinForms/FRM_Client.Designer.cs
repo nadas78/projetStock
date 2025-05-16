@@ -30,6 +30,9 @@
         {
             components = new System.ComponentModel.Container();
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             dvgclient = new DataGridView();
             idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             nomDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
@@ -55,32 +58,50 @@
             dvgclient.AllowUserToAddRows = false;
             dvgclient.AutoGenerateColumns = false;
             dvgclient.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dvgclient.BackgroundColor = SystemColors.Control;
+            dvgclient.BackgroundColor = SystemColors.ButtonHighlight;
             dvgclient.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = Color.FromArgb(30, 28, 38);
+            dataGridViewCellStyle1.BackColor = Color.DarkCyan;
             dataGridViewCellStyle1.Font = new Font("Microsoft Sans Serif", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             dataGridViewCellStyle1.ForeColor = SystemColors.Window;
-            dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle1.SelectionBackColor = Color.DarkCyan;
             dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
             dvgclient.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             dvgclient.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dvgclient.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, nomDataGridViewTextBoxColumn, prenomDataGridViewTextBoxColumn, adresseDataGridViewTextBoxColumn, villeDataGridViewTextBoxColumn, telephoneDataGridViewTextBoxColumn, emailDataGridViewTextBoxColumn });
             dvgclient.DataSource = clientBindingSource;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = SystemColors.Window;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle3.ForeColor = Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = Color.White;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            dvgclient.DefaultCellStyle = dataGridViewCellStyle3;
             dvgclient.EnableHeadersVisualStyles = false;
             dvgclient.Location = new Point(35, 176);
             dvgclient.Name = "dvgclient";
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = SystemColors.Control;
+            dataGridViewCellStyle4.Font = new Font("Segoe UI", 9F);
+            dataGridViewCellStyle4.ForeColor = Color.DarkCyan;
+            dataGridViewCellStyle4.SelectionBackColor = Color.DarkCyan;
+            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            dvgclient.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             dvgclient.RowHeadersVisible = false;
             dvgclient.RowHeadersWidth = 51;
             dvgclient.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             dvgclient.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dvgclient.Size = new Size(1005, 386);
             dvgclient.TabIndex = 17;
+            dvgclient.CellContentClick += dvgclient_CellContentClick;
             // 
             // idDataGridViewTextBoxColumn
             // 
             idDataGridViewTextBoxColumn.DataPropertyName = "Id";
+            dataGridViewCellStyle2.BackColor = Color.DarkCyan;
+            idDataGridViewTextBoxColumn.DefaultCellStyle = dataGridViewCellStyle2;
             idDataGridViewTextBoxColumn.HeaderText = "Id";
             idDataGridViewTextBoxColumn.MinimumWidth = 6;
             idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
@@ -133,8 +154,8 @@
             // 
             // panel3
             // 
-            panel3.BackColor = Color.FromArgb(30, 28, 38);
-            panel3.Location = new Point(643, 154);
+            panel3.BackColor = Color.DarkSlateGray;
+            panel3.Location = new Point(364, 154);
             panel3.Name = "panel3";
             panel3.Size = new Size(334, 3);
             panel3.TabIndex = 15;
@@ -159,7 +180,7 @@
             // 
             // btnmodifierclient
             // 
-            btnmodifierclient.BackColor = Color.FromArgb(30, 28, 38);
+            btnmodifierclient.BackColor = Color.Teal;
             btnmodifierclient.FlatAppearance.BorderSize = 0;
             btnmodifierclient.FlatStyle = FlatStyle.Flat;
             btnmodifierclient.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -175,7 +196,7 @@
             // 
             // btnsupprimerclient
             // 
-            btnsupprimerclient.BackColor = Color.FromArgb(30, 28, 38);
+            btnsupprimerclient.BackColor = Color.Teal;
             btnsupprimerclient.FlatAppearance.BorderSize = 0;
             btnsupprimerclient.FlatStyle = FlatStyle.Flat;
             btnsupprimerclient.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -191,7 +212,7 @@
             // 
             // btnajouterclient
             // 
-            btnajouterclient.BackColor = Color.FromArgb(30, 28, 38);
+            btnajouterclient.BackColor = Color.Teal;
             btnajouterclient.FlatAppearance.BorderSize = 0;
             btnajouterclient.FlatStyle = FlatStyle.Flat;
             btnajouterclient.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -211,7 +232,7 @@
             RechercheClient.BorderStyle = BorderStyle.None;
             RechercheClient.Font = new Font("Tahoma", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             RechercheClient.ForeColor = Color.DimGray;
-            RechercheClient.Location = new Point(643, 115);
+            RechercheClient.Location = new Point(364, 115);
             RechercheClient.Multiline = true;
             RechercheClient.Name = "RechercheClient";
             RechercheClient.PlaceholderText = "Recherche";
@@ -251,6 +272,7 @@
         private Button btnsupprimerclient;
         private Button btnajouterclient;
         private TextBox RechercheClient;
+        private BindingSource clientBindingSource;
         private DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn nomDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn prenomDataGridViewTextBoxColumn;
@@ -258,6 +280,5 @@
         private DataGridViewTextBoxColumn villeDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn telephoneDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
-        private BindingSource clientBindingSource;
     }
 }

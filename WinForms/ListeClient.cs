@@ -50,5 +50,15 @@ namespace WinForms
                 }
             }
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+           this.Close();
+        }
+
+        private void dvgclient_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

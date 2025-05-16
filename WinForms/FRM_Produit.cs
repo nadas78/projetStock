@@ -11,27 +11,30 @@ namespace WinForms
 {
     public partial class FRM_Produit : Form
     {
-
-
         public FRM_Produit()
         {
             InitializeComponent();
             ChargerProduits();
-
         }
 
-        private void ChargerProduits()
-        {
+        // Correction : Rendre la méthode publique
+        public void ChargerProduits()
+        { 
             using var context = new AppDbContext();
-            var repo = new ProduitRepository(context);
 
-            dvglProduit.DataSource = repo.GetAll().Select(p => new
-            {
-                p.Id,
-                p.Nom,
-                p.Quantite,
-                Categorie = p.Categorie.Nom
-            }).ToList();
+            // Récupérer les produits avec la catégorie directement du contexte
+            var produits = context.Produits
+                .Include(p => p.Categorie) // Assure le chargement de la catégorie
+                .Select(p => new
+                {
+                    p.Id,
+                    p.Nom,
+                    p.Quantite,
+                    Categorie = p.Categorie.Nom
+                })
+                .ToList();
+
+            dvglProduit.DataSource = produits; // Assignez les données directement au DataGridView
         }
 
         private void btnajouterclient_Click(object sender, EventArgs e)
@@ -39,47 +42,32 @@ namespace WinForms
             var frm = new FRM_AjouterProduit();
             if (frm.ShowDialog() == DialogResult.OK)
             {
-                ChargerProduits();
+                ChargerProduits(); // Actualise après ajout
             }
-        }
-
-
-
-        private void dvglProduit_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
         }
 
         private void btnsupprimerclient_Click(object sender, EventArgs e)
         {
-
             if (dvglProduit.SelectedRows.Count == 0)
             {
-                MessageBox.Show("Veuillez sélectionner un produit à supprimer.");
+                MessageBox.Show("Veuillez sélectionner un produit.");
                 return;
             }
 
-            var selectedRow = dvglProduit.SelectedRows[0];
-            int produitId = Convert.ToInt32(selectedRow.Cells[0].Value); // Accès via l’index
+            int produitId = Convert.ToInt32(dvglProduit.SelectedRows[0].Cells["Id"].Value); // Accès par nom
 
             using (var context = new AppDbContext())
             {
                 var repo = new ProduitRepository(context);
-                var produit = repo.GetById(produitId);
-                if (produit == null)
-                {
-                    MessageBox.Show("Produit introuvable.");
-                    return;
-                }
-
                 var confirm = MessageBox.Show("Confirmer la suppression ?", "Suppression", MessageBoxButtons.YesNo);
                 if (confirm == DialogResult.Yes)
                 {
-                    repo.Delete(produit.Id);
-                    ChargerProduits();
+                    repo.Delete(produitId);
+                    ChargerProduits(); // Actualise après suppression
                 }
             }
         }
+            
 
         private void btnmodifierclient_Click(object sender, EventArgs e)
         {

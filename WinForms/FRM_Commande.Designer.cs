@@ -30,81 +30,51 @@
         {
             components = new System.ComponentModel.Container();
             DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            dvgclient = new DataGridView();
-            panel1 = new Panel();
-            btnajouterclient = new Button();
-            commandeBindingSource = new BindingSource(components);
+            dvgcommande = new DataGridView();
             idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             clientIdDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            produitDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            quantiteCommandeDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            remiseDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            clientDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             dateCommandeDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
+            lignesCommandeDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             totalDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
-            button1 = new Button();
-            button2 = new Button();
-            ((System.ComponentModel.ISupportInitialize)dvgclient).BeginInit();
+            commandeBindingSource = new BindingSource(components);
+            panel1 = new Panel();
+            btnajouterclient = new Button();
+            Modifier = new Button();
+            Supprimer = new Button();
+            ((System.ComponentModel.ISupportInitialize)dvgcommande).BeginInit();
             ((System.ComponentModel.ISupportInitialize)commandeBindingSource).BeginInit();
             SuspendLayout();
             // 
-            // dvgclient
+            // dvgcommande
             // 
-            dvgclient.AllowUserToAddRows = false;
-            dvgclient.AllowUserToDeleteRows = false;
-            dvgclient.AutoGenerateColumns = false;
-            dvgclient.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            dvgclient.BackgroundColor = SystemColors.Control;
-            dvgclient.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
+            dvgcommande.AllowUserToAddRows = false;
+            dvgcommande.AllowUserToDeleteRows = false;
+            dvgcommande.AutoGenerateColumns = false;
+            dvgcommande.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dvgcommande.BackgroundColor = SystemColors.Control;
+            dvgcommande.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = Color.PaleVioletRed;
+            dataGridViewCellStyle1.BackColor = Color.DarkCyan;
             dataGridViewCellStyle1.Font = new Font("Microsoft Sans Serif", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             dataGridViewCellStyle1.ForeColor = SystemColors.Window;
             dataGridViewCellStyle1.SelectionBackColor = Color.Crimson;
             dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
-            dvgclient.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            dvgclient.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dvgclient.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, clientIdDataGridViewTextBoxColumn, produitDataGridViewTextBoxColumn, quantiteCommandeDataGridViewTextBoxColumn, remiseDataGridViewTextBoxColumn, dateCommandeDataGridViewTextBoxColumn, totalDataGridViewTextBoxColumn });
-            dvgclient.DataSource = commandeBindingSource;
-            dvgclient.EnableHeadersVisualStyles = false;
-            dvgclient.GridColor = Color.PaleVioletRed;
-            dvgclient.Location = new Point(45, 132);
-            dvgclient.Name = "dvgclient";
-            dvgclient.ReadOnly = true;
-            dvgclient.RowHeadersVisible = false;
-            dvgclient.RowHeadersWidth = 51;
-            dvgclient.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
-            dvgclient.Size = new Size(1119, 456);
-            dvgclient.TabIndex = 42;
-            // 
-            // panel1
-            // 
-            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
-            panel1.BackColor = Color.FromArgb(30, 28, 38);
-            panel1.Location = new Point(-33, 93);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1345, 5);
-            panel1.TabIndex = 41;
-            // 
-            // btnajouterclient
-            // 
-            btnajouterclient.BackColor = Color.PaleVioletRed;
-            btnajouterclient.FlatAppearance.BorderSize = 0;
-            btnajouterclient.FlatStyle = FlatStyle.Flat;
-            btnajouterclient.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            btnajouterclient.ForeColor = SystemColors.ControlLightLight;
-            btnajouterclient.ImageAlign = ContentAlignment.MiddleLeft;
-            btnajouterclient.Location = new Point(22, 25);
-            btnajouterclient.Name = "btnajouterclient";
-            btnajouterclient.Size = new Size(273, 53);
-            btnajouterclient.TabIndex = 40;
-            btnajouterclient.Text = "Ajouter";
-            btnajouterclient.UseVisualStyleBackColor = false;
-            btnajouterclient.Click += btnajouterclient_Click;
-            // 
-            // commandeBindingSource
-            // 
-            commandeBindingSource.DataSource = typeof(StockLibrary.Entities.Commande);
+            dvgcommande.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dvgcommande.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dvgcommande.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, clientIdDataGridViewTextBoxColumn, clientDataGridViewTextBoxColumn, dateCommandeDataGridViewTextBoxColumn, lignesCommandeDataGridViewTextBoxColumn, totalDataGridViewTextBoxColumn });
+            dvgcommande.DataSource = commandeBindingSource;
+            dvgcommande.EnableHeadersVisualStyles = false;
+            dvgcommande.GridColor = Color.PaleVioletRed;
+            dvgcommande.Location = new Point(45, 132);
+            dvgcommande.Name = "dvgcommande";
+            dvgcommande.ReadOnly = true;
+            dvgcommande.RowHeadersVisible = false;
+            dvgcommande.RowHeadersWidth = 51;
+            dvgcommande.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.DisableResizing;
+            dvgcommande.Size = new Size(1119, 456);
+            dvgcommande.TabIndex = 42;
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -122,29 +92,13 @@
             clientIdDataGridViewTextBoxColumn.Name = "clientIdDataGridViewTextBoxColumn";
             clientIdDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // produitDataGridViewTextBoxColumn
+            // clientDataGridViewTextBoxColumn
             // 
-            produitDataGridViewTextBoxColumn.DataPropertyName = "Produit";
-            produitDataGridViewTextBoxColumn.HeaderText = "Produit";
-            produitDataGridViewTextBoxColumn.MinimumWidth = 6;
-            produitDataGridViewTextBoxColumn.Name = "produitDataGridViewTextBoxColumn";
-            produitDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // quantiteCommandeDataGridViewTextBoxColumn
-            // 
-            quantiteCommandeDataGridViewTextBoxColumn.DataPropertyName = "QuantiteCommande";
-            quantiteCommandeDataGridViewTextBoxColumn.HeaderText = "QuantiteCommande";
-            quantiteCommandeDataGridViewTextBoxColumn.MinimumWidth = 6;
-            quantiteCommandeDataGridViewTextBoxColumn.Name = "quantiteCommandeDataGridViewTextBoxColumn";
-            quantiteCommandeDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // remiseDataGridViewTextBoxColumn
-            // 
-            remiseDataGridViewTextBoxColumn.DataPropertyName = "Remise";
-            remiseDataGridViewTextBoxColumn.HeaderText = "Remise";
-            remiseDataGridViewTextBoxColumn.MinimumWidth = 6;
-            remiseDataGridViewTextBoxColumn.Name = "remiseDataGridViewTextBoxColumn";
-            remiseDataGridViewTextBoxColumn.ReadOnly = true;
+            clientDataGridViewTextBoxColumn.DataPropertyName = "Client";
+            clientDataGridViewTextBoxColumn.HeaderText = "Client";
+            clientDataGridViewTextBoxColumn.MinimumWidth = 6;
+            clientDataGridViewTextBoxColumn.Name = "clientDataGridViewTextBoxColumn";
+            clientDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // dateCommandeDataGridViewTextBoxColumn
             // 
@@ -154,6 +108,14 @@
             dateCommandeDataGridViewTextBoxColumn.Name = "dateCommandeDataGridViewTextBoxColumn";
             dateCommandeDataGridViewTextBoxColumn.ReadOnly = true;
             // 
+            // lignesCommandeDataGridViewTextBoxColumn
+            // 
+            lignesCommandeDataGridViewTextBoxColumn.DataPropertyName = "LignesCommande";
+            lignesCommandeDataGridViewTextBoxColumn.HeaderText = "LignesCommande";
+            lignesCommandeDataGridViewTextBoxColumn.MinimumWidth = 6;
+            lignesCommandeDataGridViewTextBoxColumn.Name = "lignesCommandeDataGridViewTextBoxColumn";
+            lignesCommandeDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
             // totalDataGridViewTextBoxColumn
             // 
             totalDataGridViewTextBoxColumn.DataPropertyName = "Total";
@@ -162,68 +124,99 @@
             totalDataGridViewTextBoxColumn.Name = "totalDataGridViewTextBoxColumn";
             totalDataGridViewTextBoxColumn.ReadOnly = true;
             // 
-            // button1
+            // commandeBindingSource
             // 
-            button1.BackColor = Color.PaleVioletRed;
-            button1.FlatAppearance.BorderSize = 0;
-            button1.FlatStyle = FlatStyle.Flat;
-            button1.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button1.ForeColor = SystemColors.ControlLightLight;
-            button1.ImageAlign = ContentAlignment.MiddleLeft;
-            button1.Location = new Point(752, 25);
-            button1.Name = "button1";
-            button1.Size = new Size(273, 53);
-            button1.TabIndex = 43;
-            button1.Text = "Ajouter";
-            button1.UseVisualStyleBackColor = false;
+            commandeBindingSource.DataSource = typeof(StockLibrary.Entities.Commande);
             // 
-            // button2
+            // panel1
             // 
-            button2.BackColor = Color.PaleVioletRed;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.ForeColor = SystemColors.ControlLightLight;
-            button2.ImageAlign = ContentAlignment.MiddleLeft;
-            button2.Location = new Point(370, 25);
-            button2.Name = "button2";
-            button2.Size = new Size(273, 53);
-            button2.TabIndex = 44;
-            button2.Text = "Ajouter";
-            button2.UseVisualStyleBackColor = false;
+            panel1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            panel1.BackColor = Color.FromArgb(30, 28, 38);
+            panel1.Location = new Point(-33, 93);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1345, 5);
+            panel1.TabIndex = 41;
+            // 
+            // btnajouterclient
+            // 
+            btnajouterclient.BackColor = Color.DarkCyan;
+            btnajouterclient.FlatAppearance.BorderSize = 0;
+            btnajouterclient.FlatStyle = FlatStyle.Flat;
+            btnajouterclient.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            btnajouterclient.ForeColor = SystemColors.ControlLightLight;
+            btnajouterclient.ImageAlign = ContentAlignment.MiddleLeft;
+            btnajouterclient.Location = new Point(22, 25);
+            btnajouterclient.Name = "btnajouterclient";
+            btnajouterclient.Size = new Size(273, 53);
+            btnajouterclient.TabIndex = 40;
+            btnajouterclient.Text = "Ajouter";
+            btnajouterclient.UseVisualStyleBackColor = false;
+            btnajouterclient.Click += btnajouterclient_Click;
+            // 
+            // Modifier
+            // 
+            Modifier.BackColor = Color.DarkCyan;
+            Modifier.FlatAppearance.BorderSize = 0;
+            Modifier.FlatStyle = FlatStyle.Flat;
+            Modifier.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Modifier.ForeColor = SystemColors.ControlLightLight;
+            Modifier.ImageAlign = ContentAlignment.MiddleLeft;
+            Modifier.Location = new Point(802, 25);
+            Modifier.Name = "Modifier";
+            Modifier.Size = new Size(273, 53);
+            Modifier.TabIndex = 43;
+            Modifier.Text = "Modifier";
+            Modifier.UseVisualStyleBackColor = false;
+            // 
+            // Supprimer
+            // 
+            Supprimer.BackColor = Color.DarkCyan;
+            Supprimer.FlatAppearance.BorderSize = 0;
+            Supprimer.FlatStyle = FlatStyle.Flat;
+            Supprimer.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            Supprimer.ForeColor = SystemColors.ControlLightLight;
+            Supprimer.ImageAlign = ContentAlignment.MiddleLeft;
+            Supprimer.Location = new Point(436, 25);
+            Supprimer.Name = "Supprimer";
+            Supprimer.Size = new Size(273, 53);
+            Supprimer.TabIndex = 44;
+            Supprimer.Text = "Supprimer";
+            Supprimer.UseVisualStyleBackColor = false;
             // 
             // FRM_Commande
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1192, 604);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(dvgclient);
+            Controls.Add(Supprimer);
+            Controls.Add(Modifier);
+            Controls.Add(dvgcommande);
             Controls.Add(panel1);
             Controls.Add(btnajouterclient);
             FormBorderStyle = FormBorderStyle.None;
             Name = "FRM_Commande";
             Text = "FRM_Commande";
-            ((System.ComponentModel.ISupportInitialize)dvgclient).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dvgcommande).EndInit();
             ((System.ComponentModel.ISupportInitialize)commandeBindingSource).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
 
-        private DataGridView dvgclient;
+        private DataGridView dvgcommande;
         private Panel panel1;
         private Button btnajouterclient;
         private BindingSource commandeBindingSource;
-        private DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
-        private DataGridViewTextBoxColumn clientIdDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn produitDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn quantiteCommandeDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn remiseDataGridViewTextBoxColumn;
+        private Button Modifier;
+        private Button Supprimer;
+        private DataGridViewTextBoxColumn idDataGridViewTextBoxColumn;
+        private DataGridViewTextBoxColumn clientIdDataGridViewTextBoxColumn;
+        private DataGridViewTextBoxColumn clientDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn dateCommandeDataGridViewTextBoxColumn;
+        private DataGridViewTextBoxColumn lignesCommandeDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn totalDataGridViewTextBoxColumn;
-        private Button button1;
-        private Button button2;
     }
 }

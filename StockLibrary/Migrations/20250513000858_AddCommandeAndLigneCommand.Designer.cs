@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace StockLibrary.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20250505174755_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250513000858_AddCommandeAndLigneCommand")]
+    partial class AddCommandeAndLigneCommand
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -81,20 +81,44 @@ namespace StockLibrary.Migrations
                     b.Property<DateTime>("DateCommande")
                         .HasColumnType("TEXT");
 
+                    b.HasKey("Id");
+
+                    b.HasIndex("ClientId");
+
+                    b.ToTable("Commandes");
+                });
+
+            modelBuilder.Entity("StockLibrary.Entities.LigneCommande", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("CommandeId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<decimal>("Prix")
+                        .HasColumnType("TEXT");
+
                     b.Property<int>("ProduitId")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("QuantiteCommande")
+                    b.Property<int>("Quantite")
                         .HasColumnType("INTEGER");
 
                     b.Property<decimal>("Remise")
                         .HasColumnType("TEXT");
 
+                    b.Property<decimal>("TotalCalculé")
+                        .HasColumnType("TEXT");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("CommandeId");
 
                     b.HasIndex("ProduitId");
 
-                    b.ToTable("Commandes");
+                    b.ToTable("LignesCommande");
                 });
 
             modelBuilder.Entity("StockLibrary.Entities.Produit", b =>
@@ -129,11 +153,30 @@ namespace StockLibrary.Migrations
 
             modelBuilder.Entity("StockLibrary.Entities.Commande", b =>
                 {
+                    b.HasOne("StockLibrary.Entities.Client", "Client")
+                        .WithMany()
+                        .HasForeignKey("ClientId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Client");
+                });
+
+            modelBuilder.Entity("StockLibrary.Entities.LigneCommande", b =>
+                {
+                    b.HasOne("StockLibrary.Entities.Commande", "Commande")
+                        .WithMany("LignesCommande")
+                        .HasForeignKey("CommandeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("StockLibrary.Entities.Produit", "Produit")
                         .WithMany()
                         .HasForeignKey("ProduitId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+
+                    b.Navigation("Commande");
 
                     b.Navigation("Produit");
                 });
@@ -152,6 +195,11 @@ namespace StockLibrary.Migrations
             modelBuilder.Entity("StockLibrary.Entities.Categorie", b =>
                 {
                     b.Navigation("Produits");
+                });
+
+            modelBuilder.Entity("StockLibrary.Entities.Commande", b =>
+                {
+                    b.Navigation("LignesCommande");
                 });
 #pragma warning restore 612, 618
         }

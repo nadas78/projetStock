@@ -39,6 +39,7 @@
             telephoneDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             emailDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
             clientBindingSource = new BindingSource(components);
+            button3 = new Button();
             ((System.ComponentModel.ISupportInitialize)dvgclient).BeginInit();
             ((System.ComponentModel.ISupportInitialize)clientBindingSource).BeginInit();
             SuspendLayout();
@@ -51,7 +52,7 @@
             dvgclient.BackgroundColor = SystemColors.Control;
             dvgclient.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
             dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = Color.FromArgb(30, 28, 38);
+            dataGridViewCellStyle1.BackColor = Color.DarkCyan;
             dataGridViewCellStyle1.Font = new Font("Microsoft Sans Serif", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             dataGridViewCellStyle1.ForeColor = SystemColors.Window;
             dataGridViewCellStyle1.SelectionBackColor = SystemColors.Highlight;
@@ -70,6 +71,7 @@
             dvgclient.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
             dvgclient.Size = new Size(1005, 413);
             dvgclient.TabIndex = 11;
+            dvgclient.CellContentClick += dvgclient_CellContentClick;
             // 
             // idDataGridViewTextBoxColumn
             // 
@@ -124,11 +126,25 @@
             // 
             clientBindingSource.DataSource = typeof(StockLibrary.Entities.Client);
             // 
+            // button3
+            // 
+            button3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            button3.FlatAppearance.BorderSize = 0;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Image = Properties.Resources.icons8_annuler_32;
+            button3.Location = new Point(976, -10);
+            button3.Name = "button3";
+            button3.Size = new Size(50, 50);
+            button3.TabIndex = 84;
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // ListeClient
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1027, 477);
+            Controls.Add(button3);
             Controls.Add(dvgclient);
             FormBorderStyle = FormBorderStyle.None;
             Name = "ListeClient";
@@ -149,5 +165,6 @@
         private DataGridViewTextBoxColumn telephoneDataGridViewTextBoxColumn;
         private DataGridViewTextBoxColumn emailDataGridViewTextBoxColumn;
         private BindingSource clientBindingSource;
+        private Button button3;
     }
 }

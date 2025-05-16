@@ -56,6 +56,7 @@
             panel3 = new Panel();
             panel2 = new Panel();
             panel1 = new Panel();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)clientBindingSource).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
@@ -78,7 +79,7 @@
             // 
             // VilleClient
             // 
-            VilleClient.BackColor = Color.FromArgb(30, 28, 38);
+            VilleClient.BackColor = Color.DarkCyan;
             VilleClient.BorderStyle = BorderStyle.None;
             VilleClient.DataBindings.Add(new Binding("Text", clientBindingSource, "Ville", true));
             VilleClient.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -115,7 +116,7 @@
             // 
             // EnregistrerClient
             // 
-            EnregistrerClient.BackColor = Color.FromArgb(178, 5, 55);
+            EnregistrerClient.BackColor = Color.LightSlateGray;
             EnregistrerClient.ForeColor = SystemColors.ControlLightLight;
             EnregistrerClient.Location = new Point(177, 480);
             EnregistrerClient.Margin = new Padding(3, 4, 3, 4);
@@ -195,7 +196,7 @@
             // 
             // TelephoneClient
             // 
-            TelephoneClient.BackColor = Color.FromArgb(30, 28, 38);
+            TelephoneClient.BackColor = Color.DarkCyan;
             TelephoneClient.BorderStyle = BorderStyle.None;
             TelephoneClient.DataBindings.Add(new Binding("Text", clientBindingSource, "Telephone", true));
             TelephoneClient.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -210,7 +211,7 @@
             // 
             // EmailClient
             // 
-            EmailClient.BackColor = Color.FromArgb(30, 28, 38);
+            EmailClient.BackColor = Color.DarkCyan;
             EmailClient.BorderStyle = BorderStyle.None;
             EmailClient.DataBindings.Add(new Binding("Text", clientBindingSource, "Ville", true));
             EmailClient.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -225,7 +226,7 @@
             // 
             // PrenomClient
             // 
-            PrenomClient.BackColor = Color.FromArgb(30, 28, 38);
+            PrenomClient.BackColor = Color.DarkCyan;
             PrenomClient.BorderStyle = BorderStyle.None;
             PrenomClient.DataBindings.Add(new Binding("Text", clientBindingSource, "Prenom", true));
             PrenomClient.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -268,7 +269,7 @@
             // 
             // AdresseClient
             // 
-            AdresseClient.BackColor = Color.FromArgb(30, 28, 38);
+            AdresseClient.BackColor = Color.DarkCyan;
             AdresseClient.BorderStyle = BorderStyle.None;
             AdresseClient.DataBindings.Add(new Binding("Text", clientBindingSource, "Adresse", true));
             AdresseClient.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -283,11 +284,11 @@
             // 
             // NomClient
             // 
-            NomClient.BackColor = Color.FromArgb(30, 28, 38);
+            NomClient.BackColor = Color.DarkCyan;
             NomClient.BorderStyle = BorderStyle.None;
             NomClient.DataBindings.Add(new Binding("Text", clientBindingSource, "Nom", true));
             NomClient.Font = new Font("Microsoft Sans Serif", 10.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            NomClient.ForeColor = Color.FromArgb(224, 224, 224);
+            NomClient.ForeColor = SystemColors.ActiveCaptionText;
             NomClient.Location = new Point(70, 127);
             NomClient.Margin = new Padding(3, 4, 3, 4);
             NomClient.Multiline = true;
@@ -295,7 +296,7 @@
             NomClient.PlaceholderText = "Nom";
             NomClient.Size = new Size(208, 41);
             NomClient.TabIndex = 59;
-            NomClient.TextChanged += NomClient_TextChanged;
+            NomClient.TextChanged += NomClient_TextChanged_1;
             // 
             // label1
             // 
@@ -310,7 +311,7 @@
             // 
             // panel7
             // 
-            panel7.BackColor = Color.FromArgb(178, 5, 55);
+            panel7.BackColor = Color.White;
             panel7.Dock = DockStyle.Bottom;
             panel7.Location = new Point(3, 563);
             panel7.Margin = new Padding(3, 4, 3, 4);
@@ -320,7 +321,7 @@
             // 
             // panel3
             // 
-            panel3.BackColor = Color.FromArgb(178, 5, 55);
+            panel3.BackColor = Color.White;
             panel3.Dock = DockStyle.Right;
             panel3.Location = new Point(674, 4);
             panel3.Margin = new Padding(3, 4, 3, 4);
@@ -330,7 +331,7 @@
             // 
             // panel2
             // 
-            panel2.BackColor = Color.FromArgb(178, 5, 55);
+            panel2.BackColor = Color.White;
             panel2.Controls.Add(panel8);
             panel2.Dock = DockStyle.Left;
             panel2.Location = new Point(0, 4);
@@ -341,7 +342,7 @@
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(178, 5, 55);
+            panel1.BackColor = Color.White;
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(3, 4, 3, 4);
@@ -349,12 +350,26 @@
             panel1.Size = new Size(677, 4);
             panel1.TabIndex = 54;
             // 
+            // button2
+            // 
+            button2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            button2.FlatAppearance.BorderSize = 0;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Image = (Image)resources.GetObject("button2.Image");
+            button2.Location = new Point(619, 11);
+            button2.Name = "button2";
+            button2.Size = new Size(50, 50);
+            button2.TabIndex = 82;
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // FRM_AjouterClient
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.FromArgb(30, 28, 38);
+            BackColor = Color.DarkCyan;
             ClientSize = new Size(677, 567);
+            Controls.Add(button2);
             Controls.Add(pictureBox7);
             Controls.Add(VilleClient);
             Controls.Add(panel11);
@@ -379,6 +394,7 @@
             Controls.Add(panel3);
             Controls.Add(panel2);
             Controls.Add(panel1);
+            ForeColor = SystemColors.ActiveCaptionText;
             FormBorderStyle = FormBorderStyle.None;
             Name = "FRM_AjouterClient";
             Text = "FRM_AjouterClient";
@@ -423,5 +439,6 @@
         private Panel panel2;
         private Panel panel1;
         private BindingSource clientBindingSource;
+        private Button button2;
     }
 }
